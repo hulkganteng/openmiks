@@ -1,8 +1,18 @@
-# Openmix 29 Pro
+<p align="center">
+  <img src="openmiks_trimmed.png" alt="Openmiks Logo" width="450" />
+</p>
 
-**Openmix** adalah software live video production dan video mixer switcher berbasis **Native Windows (.NET 10 WPF)** yang ultra-ringan, berkinerja tinggi, dan kompatibel penuh dengan ekosistem vMix.
+<h1 align="center">Openmiks 29 Pro</h1>
 
-Dibangun dengan arsitektur C# murni tanpa Electron/WebView, Openmix berjalan sangat efisien dengan jejak memori kecil (**~38 MB RAM**) dan penggunaan CPU idle **< 3%**.
+<p align="center">
+  <strong>Native Windows (.NET 10 WPF) High-Performance Live Video Production Switcher</strong>
+</p>
+
+---
+
+**Openmiks** adalah software live video production dan video mixer switcher berbasis **Native Windows (.NET 10 WPF)** yang ultra-ringan, berkinerja tinggi, dan kompatibel penuh dengan ekosistem vMix.
+
+Dibangun dengan arsitektur C# murni tanpa Electron/WebView, Openmiks berjalan sangat efisien dengan jejak memori kecil (**~38 MB RAM**) dan penggunaan CPU idle **< 3%**.
 
 ---
 
@@ -104,4 +114,4 @@ dotnet run
 dotnet build -c Release
 ```
 File binary executable:
-`bin\Release\net10.0-windows\Openmiks.exe` (atau dapat di-rename ke `Openmix.exe`).
+`bin\Release\net10.0-windows\Openmiks.exe`
