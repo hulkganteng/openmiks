@@ -1,0 +1,157 @@
+<Window x:Class="VMixClone.Views.InputSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Input Settings - Openmiks"
+        Icon="pack://application:,,,/Assets/openmiks_icon.png"
+        Height="620" Width="540"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="#14151B" Foreground="#F3F4F6">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock x:Name="HeaderTitle" Text="INPUT SETTINGS" FontSize="14" FontWeight="Black" Foreground="#00E676" Margin="0,0,0,16"/>
+
+        <!-- Form Elements -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <TextBlock Text="Input Name / Title:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+            <TextBox x:Name="TitleBox" Background="#161618" Foreground="#FFFFFF" BorderBrush="#38383E" Padding="6,4" Margin="0,0,0,12"/>
+
+            <TextBlock Text="Category Color Tab:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+            <ComboBox x:Name="CategoryCombo" Margin="0,0,0,12">
+                <ComboBoxItem Content="All (Default Grey)"/>
+                <ComboBoxItem Content="Red Category"/>
+                <ComboBoxItem Content="Green Category"/>
+                <ComboBoxItem Content="Orange Category"/>
+                <ComboBoxItem Content="Purple Category"/>
+                <ComboBoxItem Content="Aqua Category"/>
+                <ComboBoxItem Content="Blue Category"/>
+            </ComboBox>
+
+            <TextBlock Text="Audio Volume (0 - 100%):" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+            <Grid Margin="0,0,0,12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+                <Slider x:Name="VolumeSlider" Minimum="0" Maximum="100" Value="100" VerticalAlignment="Center" Cursor="Hand" ValueChanged="VolumeSlider_ValueChanged"/>
+                <TextBlock x:Name="VolumeValText" Grid.Column="1" Text="100%" Foreground="#00E676" FontWeight="Bold" FontSize="11" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+            </Grid>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,14">
+                <CheckBox x:Name="MuteCheck" Content="Muted" Foreground="#FFF" Margin="0,0,20,0"/>
+                <CheckBox x:Name="SoloCheck" Content="Solo (PFL)" Foreground="#FFF"/>
+            </StackPanel>
+
+            <!-- Chroma Key Settings Panel -->
+            <Border Background="#161618" BorderBrush="#3B82F6" BorderThickness="1" CornerRadius="4" Padding="8" Margin="0,0,0,12">
+                <StackPanel>
+                    <CheckBox x:Name="ChromaKeyCheck" Content="Enable GPU Chroma Keying" FontWeight="Bold" Foreground="#60A5FA" Margin="0,0,0,6"/>
+                    <Grid Margin="0,0,0,4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Similarity:" Foreground="#AAA" FontSize="10" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                        <Slider x:Name="SimilaritySlider" Grid.Column="1" Minimum="0.05" Maximum="0.9" Value="0.38"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Smoothness:" Foreground="#AAA" FontSize="10" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                        <Slider x:Name="SmoothnessSlider" Grid.Column="1" Minimum="0.01" Maximum="0.5" Value="0.10"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Spill Suppr:" Foreground="#AAA" FontSize="10" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                        <Slider x:Name="SpillSlider" Grid.Column="1" Minimum="0.0" Maximum="1.0" Value="0.80"/>
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+            <!-- Object Edit / Transform Panel (vMix + OBS Mode) -->
+            <Border Background="#161618" BorderBrush="#10B981" BorderThickness="1" CornerRadius="4" Padding="8" Margin="0,0,0,12">
+                <StackPanel>
+                    <Grid Margin="0,0,0,6">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <TextBlock Text="📐 OBJECT EDIT / TRANSFORM" Foreground="#10B981" FontWeight="Bold" FontSize="11"/>
+                            <Border Background="#064E3B" CornerRadius="3" Padding="4,1" Margin="6,0,0,0">
+                                <TextBlock Text="OBS + vMix" Foreground="#A7F3D0" FontSize="9" FontWeight="Bold"/>
+                            </Border>
+                        </StackPanel>
+                        <Button Click="ResetTransform_Click" Content="Reset" HorizontalAlignment="Right" Padding="6,2" Background="#26262B" Foreground="#AAA" BorderThickness="0" FontSize="10" Cursor="Hand"/>
+                    </Grid>
+
+                    <TextBlock x:Name="TransformSummaryText" Text="Pan: (0.00, 0.00) • Zoom: 100% • Rot: 0°" Foreground="#888" FontSize="10" Margin="0,0,0,8"/>
+
+                    <Button Click="OpenObjectEditor_Click" Background="#064E3B" BorderBrush="#059669" BorderThickness="1" Foreground="#A7F3D0" FontWeight="Bold" FontSize="11" Padding="10,6" Cursor="Hand" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock Text="📐 Open Dual Object Editor (vMix Sliders + OBS Gizmo)..."/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Border>
+
+            <!-- Title fields if Title Input -->
+            <StackPanel x:Name="TitleFieldsPanel" Visibility="Collapsed">
+                <TextBlock Text="Title Template (real vMix Titles\*.xaml):" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                <ComboBox x:Name="TitleTemplateCombo" Background="#2A2A30" Foreground="#FFFFFF" BorderBrush="#38383E" Padding="6,4" Margin="0,0,0,8"/>
+
+                <TextBlock Text="Headline Text:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                <TextBox x:Name="HeadlineBox" Background="#161618" Foreground="#FFFFFF" BorderBrush="#38383E" Padding="6,4" Margin="0,0,0,8"/>
+
+                <TextBlock Text="Subtitle Text:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                <TextBox x:Name="SubtitleBox" Background="#161618" Foreground="#FFFFFF" BorderBrush="#38383E" Padding="6,4" Margin="0,0,0,12"/>
+            </StackPanel>
+
+            <!-- PTZ fields if camera-capable input -->
+            <StackPanel x:Name="PtzPanel" Visibility="Collapsed">
+                <Border Background="#161618" BorderBrush="#F59E0B" BorderThickness="1" CornerRadius="4" Padding="8">
+                    <StackPanel>
+                        <TextBlock Text="VISCA over IP PTZ" Foreground="#F59E0B" FontWeight="Bold" FontSize="11" Margin="0,0,0,6"/>
+                        <Grid Margin="0,0,0,6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Camera IP:" Foreground="#AAA" FontSize="10" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                            <TextBox x:Name="PtzIpBox" Grid.Column="1" Background="#202024" Foreground="#FFF" BorderBrush="#38383E" Padding="4,3" Text="192.168.1.100"/>
+                        </Grid>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Content="◀ PAN" Click="PtzLeft_Click" Padding="8,4" Margin="0,0,4,0" Background="#333338" Foreground="#FFF" BorderThickness="0" Cursor="Hand"/>
+                            <Button Content="PAN ▶" Click="PtzRight_Click" Padding="8,4" Margin="0,0,4,0" Background="#333338" Foreground="#FFF" BorderThickness="0" Cursor="Hand"/>
+                            <Button Content="▲ TILT" Click="PtzUp_Click" Padding="8,4" Margin="0,0,4,0" Background="#333338" Foreground="#FFF" BorderThickness="0" Cursor="Hand"/>
+                            <Button Content="TILT ▼" Click="PtzDown_Click" Padding="8,4" Margin="0,0,4,0" Background="#333338" Foreground="#FFF" BorderThickness="0" Cursor="Hand"/>
+                            <Button Content="STOP" Click="PtzStop_Click" Padding="8,4" Background="#7F1D1D" Foreground="#FCA5A5" BorderThickness="0" Cursor="Hand"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,6,0,0">
+                            <Button Content="RECALL PRESET 1" Click="PtzRecall1_Click" Padding="8,4" Background="#064E3B" Foreground="#A7F3D0" BorderThickness="0" Cursor="Hand"/>
+                        </StackPanel>
+                        <TextBlock x:Name="PtzStatusText" Text="" Foreground="#888" FontSize="10" Margin="0,6,0,0" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </StackPanel>
+        </ScrollViewer>
+
+        <!-- Footer -->
+        <Grid Grid.Row="2">
+            <Button Content="Delete Input" Click="Delete_Click" HorizontalAlignment="Left" Padding="10,6" Background="#7F1D1D" Foreground="#FCA5A5" BorderThickness="0" Cursor="Hand"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Cancel" Click="Cancel_Click" Width="80" Padding="6" Background="#333338" Foreground="#CCCCCC" BorderBrush="#55555C" Margin="0,0,8,0" Cursor="Hand"/>
+                <Button Content="OK" Click="Ok_Click" Width="80" Padding="6" Background="#00C853" Foreground="#FFFFFF" FontWeight="Bold" BorderBrush="#00E676" Cursor="Hand"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920" Width="1920" Height="1080" xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+    <Grid>
+        <my:TextBlockDesign HorizontalAlignment="Center" Margin="0,0,0,0" Name="txtClock" VerticalAlignment="Center" Height="1080" Width="1920" Text="{}{0:hh:mm:ss tt}" TextAlignment="Center" FontSize="300" FontFamily="Consolas" FontWeight="Bold" Fill="Red" />
+    </Grid>
+</UserControl>

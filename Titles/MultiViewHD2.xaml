@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="MultiViewHD2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Width="1920" Height="1080" xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+    <Grid>
+        <Image Width="1920" Height="1080" Source="MultiViewHD2.xaml.png"/>
+        <Grid Height="165" HorizontalAlignment="Left" Margin="130,142,0,0" Name="Grid1" VerticalAlignment="Top" Width="1685">
+            <my:TextBlockDesign HorizontalAlignment="Left" Name="Headline" VerticalAlignment="Center" Text="Headline" FontFamily="Century Gothic" Fill="White" FontSize="70" FontWeight="Bold" Stroke="Navy" StrokeThickness="0">
+                <FrameworkElement.Effect>
+                    <DropShadowEffect BlurRadius="8" ShadowDepth="5" />
+                </FrameworkElement.Effect>
+            </my:TextBlockDesign>
+        </Grid>
+        <Grid Height="129" HorizontalAlignment="Left" Margin="130,763,0,0" Name="Grid2" VerticalAlignment="Top" Width="824">
+            <my:TextBlockDesign HorizontalAlignment="Left"  Name="DescriptionLeft" VerticalAlignment="Center" Text="Description 1" FontFamily="Century Gothic" FontSize="52" FontWeight="Bold" Fill="White" Stroke="Navy" StrokeThickness="0">
+                <FrameworkElement.Effect>
+                    <DropShadowEffect BlurRadius="8" ShadowDepth="5" />
+                </FrameworkElement.Effect>
+            </my:TextBlockDesign>
+        </Grid>
+        <Grid Height="134" HorizontalAlignment="Left" Margin="960,757,0,0" Name="Grid3" VerticalAlignment="Top" Width="832">
+            <my:TextBlockDesign Name="DescriptionRight" VerticalAlignment="Center" Text="Description 2" FontFamily="Century Gothic" FontSize="52" FontWeight="Bold" TextAlignment="Right" Fill="White" Stroke="Navy" StrokeThickness="0" Margin="832,35,0,35">
+                <FrameworkElement.Effect>
+                    <DropShadowEffect BlurRadius="8" ShadowDepth="5" />
+                </FrameworkElement.Effect>
+            </my:TextBlockDesign>         
+        </Grid>
+    </Grid>
+</UserControl>

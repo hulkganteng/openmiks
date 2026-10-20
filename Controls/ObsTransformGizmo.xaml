@@ -1,0 +1,83 @@
+<UserControl x:Class="VMixClone.Controls.ObsTransformGizmo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="400"
+             IsHitTestVisible="True" Background="Transparent"
+             ClipToBounds="False">
+
+    <Canvas x:Name="GizmoCanvas" Background="Transparent" ClipToBounds="False">
+        <!-- Bounding Box Container -->
+        <Canvas x:Name="BoxCanvas" ClipToBounds="False">
+            <!-- OBS Bounding Box Rectangle (Red = Transform, Green = Crop) -->
+            <Rectangle x:Name="BoxBorder"
+                       Stroke="#EF4444" StrokeThickness="1.5"
+                       Fill="#08EF4444" IsHitTestVisible="True"
+                       Cursor="SizeAll"
+                       MouseLeftButtonDown="Box_MouseLeftButtonDown"
+                       MouseMove="Box_MouseMove"
+                       MouseLeftButtonUp="Box_MouseLeftButtonUp"/>
+
+            <!-- Center Anchor Point Dot -->
+            <Ellipse x:Name="CenterDot" Width="6" Height="6" Fill="#EF4444" IsHitTestVisible="False"/>
+
+            <!-- Rotation Arm & Handle -->
+            <Line x:Name="RotLine" Stroke="#EF4444" StrokeThickness="1.5" StrokeDashArray="2 2" IsHitTestVisible="False"/>
+            <Border x:Name="RotHandle" Width="14" Height="14" CornerRadius="7" Background="#18181B" BorderBrush="#EF4444" BorderThickness="1.5"
+                    Cursor="Hand" ToolTip="Rotate Object"
+                    MouseLeftButtonDown="RotHandle_MouseDown"
+                    MouseMove="RotHandle_MouseMove"
+                    MouseLeftButtonUp="RotHandle_MouseUp">
+                <TextBlock Text="↻" Foreground="#EF4444" FontSize="9" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-1,0,0"/>
+            </Border>
+
+            <!-- 8 OBS Resize / Crop Grips -->
+            <!-- Top-Left (NW) -->
+            <Border x:Name="HandleNW" Width="10" Height="10" Background="#FFFFFF" BorderBrush="#EF4444" BorderThickness="1.5" CornerRadius="1"
+                    Cursor="SizeNWSE" Tag="NW"
+                    MouseLeftButtonDown="Handle_MouseDown" MouseMove="Handle_MouseMove" MouseLeftButtonUp="Handle_MouseUp"/>
+
+            <!-- Top-Center (N) -->
+            <Border x:Name="HandleN" Width="10" Height="10" Background="#FFFFFF" BorderBrush="#EF4444" BorderThickness="1.5" CornerRadius="1"
+                    Cursor="SizeNS" Tag="N"
+                    MouseLeftButtonDown="Handle_MouseDown" MouseMove="Handle_MouseMove" MouseLeftButtonUp="Handle_MouseUp"/>
+
+            <!-- Top-Right (NE) -->
+            <Border x:Name="HandleNE" Width="10" Height="10" Background="#FFFFFF" BorderBrush="#EF4444" BorderThickness="1.5" CornerRadius="1"
+                    Cursor="SizeNESW" Tag="NE"
+                    MouseLeftButtonDown="Handle_MouseDown" MouseMove="Handle_MouseMove" MouseLeftButtonUp="Handle_MouseUp"/>
+
+            <!-- Center-Right (E) -->
+            <Border x:Name="HandleE" Width="10" Height="10" Background="#FFFFFF" BorderBrush="#EF4444" BorderThickness="1.5" CornerRadius="1"
+                    Cursor="SizeWE" Tag="E"
+                    MouseLeftButtonDown="Handle_MouseDown" MouseMove="Handle_MouseMove" MouseLeftButtonUp="Handle_MouseUp"/>
+
+            <!-- Bottom-Right (SE) -->
+            <Border x:Name="HandleSE" Width="10" Height="10" Background="#FFFFFF" BorderBrush="#EF4444" BorderThickness="1.5" CornerRadius="1"
+                    Cursor="SizeNWSE" Tag="SE"
+                    MouseLeftButtonDown="Handle_MouseDown" MouseMove="Handle_MouseMove" MouseLeftButtonUp="Handle_MouseUp"/>
+
+            <!-- Bottom-Center (S) -->
+            <Border x:Name="HandleS" Width="10" Height="10" Background="#FFFFFF" BorderBrush="#EF4444" BorderThickness="1.5" CornerRadius="1"
+                    Cursor="SizeNS" Tag="S"
+                    MouseLeftButtonDown="Handle_MouseDown" MouseMove="Handle_MouseMove" MouseLeftButtonUp="Handle_MouseUp"/>
+
+            <!-- Bottom-Left (SW) -->
+            <Border x:Name="HandleSW" Width="10" Height="10" Background="#FFFFFF" BorderBrush="#EF4444" BorderThickness="1.5" CornerRadius="1"
+                    Cursor="SizeNESW" Tag="SW"
+                    MouseLeftButtonDown="Handle_MouseDown" MouseMove="Handle_MouseMove" MouseLeftButtonUp="Handle_MouseUp"/>
+
+            <!-- Center-Left (W) -->
+            <Border x:Name="HandleW" Width="10" Height="10" Background="#FFFFFF" BorderBrush="#EF4444" BorderThickness="1.5" CornerRadius="1"
+                    Cursor="SizeWE" Tag="W"
+                    MouseLeftButtonDown="Handle_MouseDown" MouseMove="Handle_MouseMove" MouseLeftButtonUp="Handle_MouseUp"/>
+
+            <!-- Live HUD Coordinates & Dimensions Badge -->
+            <Border x:Name="HudBadge" Background="#D9000000" BorderBrush="#EF4444" BorderThickness="1" CornerRadius="3" Padding="6,2" IsHitTestVisible="False">
+                <TextBlock x:Name="HudText" Text="X: 0.00 | Y: 0.00 | 100%" Foreground="#FFFFFF" FontSize="9" FontFamily="Consolas, monospace" FontWeight="Bold"/>
+            </Border>
+        </Canvas>
+    </Canvas>
+</UserControl>

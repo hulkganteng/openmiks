@@ -1,0 +1,9 @@
+<virtualSet>
+  <input name="Left" x="-0.40625" y="0" zoom="0.724074" cropping="0.276295,0,0.723705,1" dynamic="true">talent.png</input>
+  <input name="Right" x="0.40625" y="0" zoom="0.724074" cropping="0.276295,0,0.723705,1" dynamic="true">a.png</input>
+  <input name="Foreground" x="0" y="0" zoom="1">foreground.png</input>
+  <zoom name="Full" x="0" y="0" zoom="1" />
+  <zoom name="Custom1" x="0" y="0" zoom="1" />
+  <zoom name="Custom2" x="0" y="0" zoom="1" />
+  <zoom name="Custom3" x="0" y="0" zoom="1" />
+</virtualSet>

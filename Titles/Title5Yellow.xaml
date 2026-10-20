@@ -1,0 +1,15 @@
+<UserControl x:Class="Title5Yellow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920" Width="1920" Height="1080" xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+    <Grid>
+        <Canvas>
+            <Image Source="Title5Yellow.xaml.png" Width="1920" Height="1080" />
+            <my:TextBlockDesign Canvas.Left="164" Canvas.Top="880" Height="172" Name="Heading" Width="1360" Text="HEADING" FontWeight="Bold" FontSize="72" Fill="Black" FontFamily="Century Gothic"></my:TextBlockDesign>
+            <my:TextBlockDesign Canvas.Left="1588" Canvas.Top="880" Fill="Black" FontSize="72" FontWeight="Bold" Height="120" Name="Time" Text="{}{0:HH:mm}" Width="312" TextAlignment="Center" FontFamily="Century Gothic" />
+        </Canvas>
+    </Grid>
+</UserControl>

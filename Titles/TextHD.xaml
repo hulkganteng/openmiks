@@ -1,0 +1,14 @@
+﻿<UserControl xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary"  x:Class="TextHD"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920" Width="1920" Height="1080">
+    <Grid>
+        <my:TextBlockDesign FontWeight="Bold" Stroke="Black" StrokeThickness="2" HorizontalAlignment="Center" Margin="45,40,43,0" Name="Message" Text="Message" FontSize="72" TextAlignment="Center" Width="1832" Fill="White">
+        </my:TextBlockDesign>
+        <my:TextBlockDesign FontWeight="Bold" Stroke="Black" StrokeThickness="2" HorizontalAlignment="Left" Margin="45,915,0,0" Name="Title" Text="Title" VerticalAlignment="Top" Width="1797" TextAlignment="Right" FontSize="72" Fill="White">
+         </my:TextBlockDesign>        
+    </Grid>
+</UserControl>

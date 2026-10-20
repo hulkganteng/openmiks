@@ -1,0 +1,321 @@
+<Window x:Class="VMixClone.Views.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings - Openmiks 29 Pro"
+        Icon="pack://application:,,,/Assets/openmiks_icon.png"
+        Height="540" Width="740"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="#14151B" Foreground="#F3F4F6">
+
+    <Window.Resources>
+        <Style x:Key="CatNavBtn" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#AAAAAA"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="14,10"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#2A2A30"/>
+                                <Setter Property="Foreground" Value="#FFFFFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="SetBox" TargetType="TextBox">
+            <Setter Property="Background" Value="#161618"/>
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+            <Setter Property="BorderBrush" Value="#38383E"/>
+            <Setter Property="Padding" Value="6,4"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
+        <Style x:Key="SetCombo" TargetType="ComboBox" BasedOn="{StaticResource {x:Type ComboBox}}"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="46"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <!-- Left Categories Sidebar -->
+                <ColumnDefinition Width="175"/>
+                <!-- Right Content Panel -->
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Sidebar -->
+            <Border Grid.Column="0" Background="#18181B" BorderBrush="#2A2A30" BorderThickness="0,0,1,0">
+                <StackPanel Margin="0,8">
+                    <Button Click="Nav_Click" Tag="Display" Style="{StaticResource CatNavBtn}" Content="🖥️ Display / Outputs"/>
+                    <Button Click="Nav_Click" Tag="Recording" Style="{StaticResource CatNavBtn}" Content="⏺️ Recording"/>
+                    <Button Click="Nav_Click" Tag="Streaming" Style="{StaticResource CatNavBtn}" Content="📡 Streaming"/>
+                    <Button Click="Nav_Click" Tag="Audio" Style="{StaticResource CatNavBtn}" Content="🔊 Audio Outputs"/>
+                    <Button Click="Nav_Click" Tag="Web" Style="{StaticResource CatNavBtn}" Content="🌐 Web Controller"/>
+                    <Button Click="Nav_Click" Tag="Shortcuts" Style="{StaticResource CatNavBtn}" Content="⌨️ Shortcuts"/>
+                    <Button Click="Nav_Click" Tag="About" Style="{StaticResource CatNavBtn}" Content="ℹ️ About"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Right Content Panels -->
+            <Border Grid.Column="1" Padding="20">
+                <Grid>
+                    <!-- 1. DISPLAY / OUTPUTS -->
+                    <StackPanel x:Name="DisplayPanel" Visibility="Visible">
+                        <TextBlock Text="DISPLAY &amp; MASTER OUTPUT" FontSize="14" FontWeight="Bold" Foreground="#00E676" Margin="0,0,0,16"/>
+
+                        <TextBlock Text="Master Output Resolution:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="OutputResCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="1920x1080 (Full HD 16:9)"/>
+                            <ComboBoxItem Content="1280x720 (HD 16:9)"/>
+                            <ComboBoxItem Content="3840x2160 (4K UHD)"/>
+                            <ComboBoxItem Content="1080x1920 (Vertical 9:16)"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Master Frame Rate:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="FrameRateCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="59.94p"/>
+                            <ComboBoxItem Content="60p"/>
+                            <ComboBoxItem Content="50p"/>
+                            <ComboBoxItem Content="29.97p"/>
+                            <ComboBoxItem Content="30p"/>
+                            <ComboBoxItem Content="25p"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Fullscreen Display Monitor:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="MonitorCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="Display 1 (Primary)"/>
+                            <ComboBoxItem Content="Display 2 (Extended Monitor)"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Video Renderer:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="RendererCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="Direct3D 11 (Hardware Accelerated)"/>
+                            <ComboBoxItem Content="Direct3D 9"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <!-- 2. RECORDING -->
+                    <StackPanel x:Name="RecordingPanel" Visibility="Collapsed">
+                        <TextBlock Text="RECORDING CONFIGURATION" FontSize="14" FontWeight="Bold" Foreground="#00E676" Margin="0,0,0,16"/>
+
+                        <TextBlock Text="Recording Destination Folder:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <Grid Margin="0,0,0,12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="RecFolderBox" Grid.Column="0" Style="{StaticResource SetBox}"/>
+                            <Button Grid.Column="1" Content="Browse..." Click="BrowseRecFolder_Click" Padding="10,4" Margin="6,0,0,0" Background="#333338" Foreground="#FFF" BorderThickness="0" Cursor="Hand"/>
+                        </Grid>
+
+                        <TextBlock Text="Recording Format:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="RecFormatCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="MP4 (H.264 / AAC)"/>
+                            <ComboBoxItem Content="AVI (vMix Video Codec)"/>
+                            <ComboBoxItem Content="MKV (Matroska)"/>
+                            <ComboBoxItem Content="WMV (Windows Media)"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Video Bitrate:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="RecBitrateCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="8 Mbps (8000 kbps - High Quality)"/>
+                            <ComboBoxItem Content="12 Mbps (12000 kbps - Broadcast)"/>
+                            <ComboBoxItem Content="20 Mbps (20000 kbps - Master)"/>
+                            <ComboBoxItem Content="4 Mbps (4000 kbps - Standard)"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Audio Bitrate:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="RecAudioBitrateCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="192 kbps (Standard Broadcast)"/>
+                            <ComboBoxItem Content="128 kbps (Compact)"/>
+                            <ComboBoxItem Content="320 kbps (High Fidelity)"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <!-- 3. STREAMING -->
+                    <StackPanel x:Name="StreamingPanel" Visibility="Collapsed">
+                        <TextBlock Text="LIVE STREAMING (RTMP) CONFIGURATION" FontSize="14" FontWeight="Bold" Foreground="#00E676" Margin="0,0,0,16"/>
+
+                        <TextBlock Text="Streaming Destination / Service:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="StreamServiceCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12" SelectionChanged="StreamService_Changed">
+                            <ComboBoxItem Content="Custom RTMP Server"/>
+                            <ComboBoxItem Content="YouTube Live"/>
+                            <ComboBoxItem Content="Facebook Live"/>
+                            <ComboBoxItem Content="Twitch"/>
+                            <ComboBoxItem Content="Restream.io"/>
+                        </ComboBox>
+
+                        <TextBlock Text="RTMP Server URL:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <TextBox x:Name="StreamUrlBox" Style="{StaticResource SetBox}" Text="rtmp://a.rtmp.youtube.com/live2" Margin="0,0,0,12"/>
+
+                        <TextBlock Text="Stream Key:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <TextBox x:Name="StreamKeyBox" Style="{StaticResource SetBox}" Margin="0,0,0,12"/>
+
+                        <TextBlock Text="Streaming Bitrate:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="StreamBitrateCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="6000 kbps (1080p 60fps)"/>
+                            <ComboBoxItem Content="4500 kbps (1080p 30fps)"/>
+                            <ComboBoxItem Content="3000 kbps (720p 60fps)"/>
+                            <ComboBoxItem Content="2000 kbps (720p 30fps)"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <!-- 4. AUDIO OUTPUTS & HARDWARE INPUTS -->
+                    <StackPanel x:Name="AudioPanel" Visibility="Collapsed">
+                        <TextBlock Text="AUDIO ROUTING, SOUNDCARDS &amp; MICROPHONES" FontSize="14" FontWeight="Bold" Foreground="#00E676" Margin="0,0,0,16"/>
+
+                        <!-- Global Hardware Microphone / Soundcard Ingest (OBS Style) -->
+                        <Border Background="#16161B" BorderBrush="#2D2D35" BorderThickness="1" CornerRadius="4" Padding="12" Margin="0,0,0,16">
+                            <StackPanel>
+                                <TextBlock Text="GLOBAL AUDIO CAPTURE DEVICES (OBS / SOUNDCARD)" FontWeight="Black" FontSize="11" Foreground="#38BDF8" Margin="0,0,0,8"/>
+
+                                <TextBlock Text="Mic/Auxiliary Audio 1 (Primary Soundcard / Mic):" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                                <ComboBox x:Name="MicAux1Combo" Style="{StaticResource SetCombo}" Margin="0,0,0,10"/>
+
+                                <TextBlock Text="Mic/Auxiliary Audio 2 (Secondary Interface / Line-In):" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                                <ComboBox x:Name="MicAux2Combo" Style="{StaticResource SetCombo}" Margin="0,0,0,4"/>
+                            </StackPanel>
+                        </Border>
+
+                        <TextBlock Text="Master Playback Device (Monitoring / Output):" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="AudioMasterCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="Default Windows Playback Device"/>
+                            <ComboBoxItem Content="Headphones (Realtek Audio)"/>
+                            <ComboBoxItem Content="Speakers / Line Out"/>
+                            <ComboBoxItem Content="Virtual Audio Cable"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Audio Bus A Device (Headphones / PFL):" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="AudioBusACombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="Default Communications Device"/>
+                            <ComboBoxItem Content="Headphones (Cue / PFL)"/>
+                            <ComboBoxItem Content="Virtual Audio Cable A"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Audio Sample Rate:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="SampleRateCombo" Style="{StaticResource SetCombo}" Margin="0,0,0,12">
+                            <ComboBoxItem Content="48000 Hz (Broadcast Quality)"/>
+                            <ComboBoxItem Content="44100 Hz (CD Quality)"/>
+                        </ComboBox>
+
+                        <CheckBox x:Name="AutoAudioMixingCheck" Content="Automatically mix audio when transitioning (vMix AutoMix)" IsChecked="True" Foreground="#FFFFFF" Margin="0,4,0,0"/>
+                    </StackPanel>
+
+                    <!-- 5. WEB CONTROLLER -->
+                    <StackPanel x:Name="WebPanel" Visibility="Collapsed">
+                        <TextBlock Text="WEB CONTROLLER &amp; HTTP API" FontSize="14" FontWeight="Bold" Foreground="#00E676" Margin="0,0,0,16"/>
+
+                        <CheckBox x:Name="WebEnabledCheck" Content="Enable Web Controller &amp; API" IsChecked="True" Foreground="#FFFFFF" Margin="0,0,0,12"/>
+
+                        <TextBlock Text="Web Server Port:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <TextBox x:Name="WebPortBox" Style="{StaticResource SetBox}" Text="8088" Width="100" HorizontalAlignment="Left" Margin="0,0,0,12"/>
+
+                        <TextBlock Text="Optional Password:" Foreground="#AAAAAA" FontSize="11" Margin="0,0,0,4"/>
+                        <TextBox x:Name="WebPasswordBox" Style="{StaticResource SetBox}" Width="200" HorizontalAlignment="Left" Margin="0,0,0,16"/>
+
+                        <Border Background="#18181B" BorderBrush="#00E676" BorderThickness="1" CornerRadius="4" Padding="12">
+                            <StackPanel>
+                                <TextBlock Text="LOCAL WEB ACCESS URL:" Foreground="#00E676" FontWeight="Bold" FontSize="11" Margin="0,0,0,4"/>
+                                <TextBlock x:Name="WebUrlDisplay" Text="http://localhost:8088/controller" Foreground="#FFF" FontSize="13" FontWeight="Bold"/>
+                                <TextBlock Text="Open this URL on any smartphone or tablet on the same WiFi network to control vMix wirelessly!" Foreground="#888" FontSize="10" Margin="0,4,0,0"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- 6. SHORTCUTS -->
+                    <StackPanel x:Name="ShortcutsPanel" Visibility="Collapsed">
+                        <TextBlock Text="KEYBOARD SHORTCUTS MAPPING" FontSize="14" FontWeight="Bold" Foreground="#00E676" Margin="0,0,0,16"/>
+
+                        <Border Background="#161618" BorderBrush="#333338" BorderThickness="1" CornerRadius="3" Height="260">
+                            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                                <Grid Margin="10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="120"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Space" FontWeight="Bold" Foreground="#00E676" Margin="0,4"/>
+                                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Cut (Instant Swap)" Foreground="#FFF" Margin="0,4"/>
+
+                                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Enter" FontWeight="Bold" Foreground="#00E676" Margin="0,4"/>
+                                    <TextBlock Grid.Row="1" Grid.Column="1" Text="Fade Transition" Foreground="#FFF" Margin="0,4"/>
+
+                                    <TextBlock Grid.Row="2" Grid.Column="0" Text="1 - 9" FontWeight="Bold" Foreground="#00E676" Margin="0,4"/>
+                                    <TextBlock Grid.Row="2" Grid.Column="1" Text="Select Input 1-9 into Preview" Foreground="#FFF" Margin="0,4"/>
+
+                                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Shift + 1-9" FontWeight="Bold" Foreground="#00E676" Margin="0,4"/>
+                                    <TextBlock Grid.Row="3" Grid.Column="1" Text="Direct Cut Input 1-9 into Program (Live)" Foreground="#FFF" Margin="0,4"/>
+
+                                    <TextBlock Grid.Row="4" Grid.Column="0" Text="F1 - F4" FontWeight="Bold" Foreground="#00E676" Margin="0,4"/>
+                                    <TextBlock Grid.Row="4" Grid.Column="1" Text="Toggle Overlay Channels 1, 2, 3, 4" Foreground="#FFF" Margin="0,4"/>
+
+                                    <TextBlock Grid.Row="5" Grid.Column="0" Text="F11" FontWeight="Bold" Foreground="#00E676" Margin="0,4"/>
+                                    <TextBlock Grid.Row="5" Grid.Column="1" Text="Toggle Fullscreen Output" Foreground="#FFF" Margin="0,4"/>
+
+                                    <TextBlock Grid.Row="6" Grid.Column="0" Text="T-Bar" FontWeight="Bold" Foreground="#00E676" Margin="0,4"/>
+                                    <TextBlock Grid.Row="6" Grid.Column="1" Text="Smooth Manual Crossfade" Foreground="#FFF" Margin="0,4"/>
+
+                                    <TextBlock Grid.Row="7" Grid.Column="0" Text="FTB" FontWeight="Bold" Foreground="#00E676" Margin="0,4"/>
+                                    <TextBlock Grid.Row="7" Grid.Column="1" Text="Emergency Fade To Black Toggle" Foreground="#FFF" Margin="0,4"/>
+                                </Grid>
+                            </ScrollViewer>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- 7. ABOUT -->
+                    <StackPanel x:Name="AboutPanel" Visibility="Collapsed">
+                        <TextBlock Text="ABOUT vMix CLONE" FontSize="14" FontWeight="Bold" Foreground="#00E676" Margin="0,0,0,16"/>
+
+                        <Border Background="#161618" BorderBrush="#333338" BorderThickness="1" CornerRadius="4" Padding="14">
+                            <StackPanel>
+                                <TextBlock Text="vMix 29.0.0.49 Pro - Ultra-Light Edition" FontWeight="Black" FontSize="14" Foreground="#FFFFFF"/>
+                                <TextBlock Text="Reverse-engineered &amp; verified via REA MCP Server" Foreground="#A1A1AA" FontSize="11" Margin="0,2,0,12"/>
+
+                                <TextBlock Text="Architecture: 64-bit Native CIL .NET 10 WPF Engine" Foreground="#DDD" FontSize="12" Margin="0,2"/>
+                                <TextBlock Text="Graphics Pipeline: Direct3D 11 &amp; GDI High-Performance Compositor" Foreground="#DDD" FontSize="12" Margin="0,2"/>
+                                <TextBlock Text="Audio Engine: Master Bus + Bus A Routing &amp; PPM Meters" Foreground="#DDD" FontSize="12" Margin="0,2"/>
+                                <TextBlock Text="Web Remote: Embedded HTTP vMix XML API (Port 8088)" Foreground="#DDD" FontSize="12" Margin="0,2"/>
+                                <TextBlock Text="Memory Footprint: ~38 MB (vs 500+ MB Electron)" Foreground="#00E676" FontWeight="Bold" FontSize="12" Margin="0,8,0,0"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Footer Buttons (OK, Cancel, Apply) -->
+        <Border Grid.Row="1" Background="#18181A" BorderBrush="#2A2A30" BorderThickness="0,1,0,0" Padding="14,8">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Cancel" Click="Cancel_Click" Width="80" Padding="6" Background="#333338" Foreground="#CCCCCC" BorderBrush="#55555C" Margin="0,0,8,0" Cursor="Hand"/>
+                <Button Content="OK" Click="Ok_Click" Width="80" Padding="6" Background="#00C853" Foreground="#FFFFFF" FontWeight="Bold" BorderBrush="#00E676" Cursor="Hand"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+<UserControl x:Class="Title2Blue"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920" Width="1920" Height="1080" xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+    <Grid>
+        <Canvas>
+            <Image Source="Title2Blue.xaml.png" Width="1920" Height="1080" Opacity="1" />
+            <my:TextBlockDesign Canvas.Left="288" Canvas.Top="857" Height="172" Name="Heading" Width="1105" Text="HEADING" FontWeight="Bold" FontSize="52" Fill="White"></my:TextBlockDesign>
+            <my:TextBlockDesign Canvas.Left="288" Canvas.Top="905" Fill="White" FontSize="52" FontWeight="Normal" Height="105" Name="Description" Text="DESCRIPTION" Width="1105" />
+            <my:TextBlockDesign Canvas.Left="1465" Canvas.Top="869" Name="Live" Height="38" Width="284" Text="LIVE" Fill="White" FontWeight="Bold" FontSize="72" TextAlignment="Center"></my:TextBlockDesign>
+        </Canvas>
+    </Grid>
+</UserControl>

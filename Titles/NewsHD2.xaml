@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="NewsHD2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Width="1920" Height="1080" xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+    <Grid>
+               <Image HorizontalAlignment="Left" Margin="0,0,0,0" Name="BackgroundImage" Stretch="Fill" VerticalAlignment="Top" Width="1920" Height="1080" Source="NewsHD2.xaml.png" Opacity="0.9" />
+        <my:TextBlockDesign HorizontalAlignment="Left" Name="Headline" VerticalAlignment="Center" Width="1207" Fill="Black" FontSize="90" FontWeight="Bold" Text="HEADLINE" Stroke="White" StrokeThickness="2" FontFamily="Century Gothic" Margin="227,763,0,207" Height="300" Highlight="False" />
+        <my:TextBlockDesign Fill="Black" FontFamily="Century Gothic" FontSize="58" FontWeight="Bold" Height="0" HorizontalAlignment="Left" Margin="227,927,0,81" Name="Description" Stroke="White" StrokeThickness="1" Text="DESCRIPTION" VerticalAlignment="Center" Width="1207" />
+        <my:TextBlockDesign Fill="White" FontFamily="Century Gothic" FontSize="50" FontWeight="Bold" Height="300" Highlight="False" HorizontalAlignment="Left" Margin="1473,905,0,65" Name="TitleTime" Stroke="Black" StrokeThickness="0" Text="{}{0:hh:mm tt}" VerticalAlignment="Center" Width="250" TextAlignment="Center" />
+    </Grid>
+</UserControl>

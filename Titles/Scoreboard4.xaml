@@ -1,0 +1,17 @@
+<UserControl x:Class="Scoreboard4"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920" Width="1920" Height="1080" xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+    <Grid>
+        <Canvas>
+            <Image Source="Scoreboard4.xaml.png" Width="1920" Height="1080" />
+            <my:TextBlockDesign Canvas.Left="184" Canvas.Top="14" Name="Clock" Height="90" Width="473" Fill="Black" TextAlignment="Center" Text="{}{0:4:00PM|mm:ss}" FontFamily="Arial Rounded MT" FontWeight="Bold" FontSize="38" />
+            <my:TextBlockDesign Canvas.Left="184" Canvas.Top="70" Fill="White" FontFamily="Arial Rounded MT" FontSize="38" FontWeight="Bold" Height="90" Name="HomeAway" Text="HOME : AWAY" TextAlignment="Center" Width="473" />
+            <my:TextBlockDesign Canvas.Left="23" Canvas.Top="70" Fill="Black" FontFamily="Arial Rounded MT" FontSize="42" FontWeight="Bold" Height="90" Name="HomeScore" Text="00" TextAlignment="Center" Width="155" />
+            <my:TextBlockDesign Canvas.Left="663" Canvas.Top="70" Fill="Black" FontFamily="Arial Rounded MT" FontSize="42" FontWeight="Bold" Height="90" Name="AwayScore" Text="00" TextAlignment="Center" Width="155" />
+        </Canvas>
+    </Grid>
+</UserControl>

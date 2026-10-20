@@ -1,0 +1,15 @@
+<UserControl x:Class="Title11"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920" Width="1920" Height="1080" xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+    <Grid>
+        <Canvas>
+            <Image Source="Title11.xaml.png" Width="1920" Height="1080" />
+            <my:TextBlockDesign Canvas.Left="407" Canvas.Top="860" Height="117" Name="Heading" Width="1102" Text="Heading" FontWeight="Bold" FontSize="72" Fill="DarkBlue"></my:TextBlockDesign>
+            <my:TextBlockDesign Canvas.Left="407" Canvas.Top="996" Fill="White" FontSize="48" FontWeight="Bold" Height="105" Name="Description" Text="Description" Width="1102" />
+        </Canvas>
+    </Grid>
+</UserControl>

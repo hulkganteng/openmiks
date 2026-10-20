@@ -1,0 +1,3200 @@
+{
+  "AddInputDialog.xaml": {
+    "mtime": 1792244186.7325943,
+    "seen": 1792244494.7580729,
+    "ast_hash": "55ef4d9c84f6fa5ca31eb0ba95d6cf57",
+    "semantic_hash": ""
+  },
+  "AddInputDialog.xaml.cs": {
+    "mtime": 1792244241.8393764,
+    "seen": 1792244494.7580812,
+    "ast_hash": "7ebbd89663a28d9b4c6286868225ff47",
+    "semantic_hash": ""
+  },
+  "App.xaml": {
+    "mtime": 1792240857.6456375,
+    "seen": 1792241367.0529344,
+    "ast_hash": "5a09b59acaee148ebd510466674a5c93",
+    "semantic_hash": ""
+  },
+  "App.xaml.cs": {
+    "mtime": 1792239754.096257,
+    "seen": 1792239857.8448534,
+    "ast_hash": "7caa2d7228714df2f1cfb6897b1e7fe6",
+    "semantic_hash": ""
+  },
+  "AssemblyInfo.cs": {
+    "mtime": 1792146392.6082227,
+    "seen": 1792237277.9304075,
+    "ast_hash": "8a158a8a488c0dd7d226a06783fc2860",
+    "semantic_hash": ""
+  },
+  "Controls/InputDisplay.xaml": {
+    "mtime": 1792245734.1649625,
+    "seen": 1792245828.451807,
+    "ast_hash": "3ebda03680f2f1b68d4a6b8d589bf2ad",
+    "semantic_hash": ""
+  },
+  "Controls/InputDisplay.xaml.cs": {
+    "mtime": 1792245750.799583,
+    "seen": 1792245828.4518116,
+    "ast_hash": "3e31d5f1c30b1c27b3fc5c72df7d31b9",
+    "semantic_hash": ""
+  },
+  "Controls/VirtualSetView.xaml": {
+    "mtime": 1792150202.603002,
+    "seen": 1792237277.9304135,
+    "ast_hash": "3f023587a0331989592dd91d78b779f0",
+    "semantic_hash": ""
+  },
+  "Controls/VirtualSetView.xaml.cs": {
+    "mtime": 1792150222.9100883,
+    "seen": 1792237277.9304154,
+    "ast_hash": "5956d72d8cc15a9cee63f0f34fd3b27c",
+    "semantic_hash": ""
+  },
+  "Effects/ChromaKeyEffect.cs": {
+    "mtime": 1792150111.6294496,
+    "seen": 1792237277.930417,
+    "ast_hash": "d8bb464a7a0a863e5ada89fe1d795444",
+    "semantic_hash": ""
+  },
+  "MainWindow.xaml": {
+    "mtime": 1792245642.0360055,
+    "seen": 1792245828.4518342,
+    "ast_hash": "70db5badbd2cd3048f8bd0a23d43adce",
+    "semantic_hash": ""
+  },
+  "MainWindow.xaml.cs": {
+    "mtime": 1792245716.267518,
+    "seen": 1792245828.4518375,
+    "ast_hash": "d163d1246bab292e46445693d78e9ace",
+    "semantic_hash": ""
+  },
+  "Models/AudioBusses.cs": {
+    "mtime": 1792151233.7715406,
+    "seen": 1792237277.9304228,
+    "ast_hash": "61ecb0b411411cb1ad9f7d4df3da1c29",
+    "semantic_hash": ""
+  },
+  "Models/Enums.cs": {
+    "mtime": 1792244142.5364566,
+    "seen": 1792244494.758115,
+    "ast_hash": "a316e7657b73395ab7d7ccf3d14f7da6",
+    "semantic_hash": ""
+  },
+  "Models/ExtendedInputs.cs": {
+    "mtime": 1792213927.717893,
+    "seen": 1792237277.9304264,
+    "ast_hash": "8c9dc38f6caf1ecfc5e58996edbe721f",
+    "semantic_hash": ""
+  },
+  "Models/InputItem.cs": {
+    "mtime": 1792244161.4987304,
+    "seen": 1792244494.7581186,
+    "ast_hash": "8cdb3afaf7a2f28b44fe41af5d337b8d",
+    "semantic_hash": ""
+  },
+  "Models/ReplayModels.cs": {
+    "mtime": 1792151026.645947,
+    "seen": 1792237277.9304297,
+    "ast_hash": "cd0595fee3bd54be24221a99627fbb8d",
+    "semantic_hash": ""
+  },
+  "Models/StingerTransition.cs": {
+    "mtime": 1792151286.8765614,
+    "seen": 1792237277.9304316,
+    "ast_hash": "8e80453ddbc7778c70ff87308200846d",
+    "semantic_hash": ""
+  },
+  "Models/VMixConfiguration.cs": {
+    "mtime": 1792244673.574566,
+    "seen": 1792244810.5296743,
+    "ast_hash": "c20ab79a828fc1a3051edba3d58637b1",
+    "semantic_hash": ""
+  },
+  "Models/VirtualSet.cs": {
+    "mtime": 1792150140.863599,
+    "seen": 1792237277.9304347,
+    "ast_hash": "fc310b3121eee99a8173c402880502f4",
+    "semantic_hash": ""
+  },
+  "Services/AudioMeterService.cs": {
+    "mtime": 1792153039.5700939,
+    "seen": 1792237277.9304366,
+    "ast_hash": "5d62b49bdf6104be9a1c0ce176e8abdc",
+    "semantic_hash": ""
+  },
+  "Services/AudioMixerEngine.cs": {
+    "mtime": 1792151252.0297873,
+    "seen": 1792237277.9304404,
+    "ast_hash": "dd3453c2b48545be70bda40dde45f017",
+    "semantic_hash": ""
+  },
+  "Services/CameraCaptureService.cs": {
+    "mtime": 1792153039.589463,
+    "seen": 1792237277.9304435,
+    "ast_hash": "da23f967ee7ad462a1fc5a8c65b342de",
+    "semantic_hash": ""
+  },
+  "Services/CameraDeviceService.cs": {
+    "mtime": 1792153039.5884626,
+    "seen": 1792237277.9304452,
+    "ast_hash": "f3957fbde205e15418e651539ec36e18",
+    "semantic_hash": ""
+  },
+  "Services/InstantReplayEngine.cs": {
+    "mtime": 1792151047.097397,
+    "seen": 1792237277.9304469,
+    "ast_hash": "ee35940228cbb88faec96d112f708f9a",
+    "semantic_hash": ""
+  },
+  "Services/NdiDiscoveryService.cs": {
+    "mtime": 1792153401.4899504,
+    "seen": 1792237277.9304483,
+    "ast_hash": "b9428f3199550b035988429bb5ac27b0",
+    "semantic_hash": ""
+  },
+  "Services/NdiSrtService.cs": {
+    "mtime": 1792153311.670704,
+    "seen": 1792237277.9304504,
+    "ast_hash": "e01ba86fb4332cfd443db0c3ee09dcb9",
+    "semantic_hash": ""
+  },
+  "Services/PlayoutEngine.cs": {
+    "mtime": 1792213990.0018952,
+    "seen": 1792237277.9304519,
+    "ast_hash": "f28d3ed1644f18312c798fb1e9afdc4e",
+    "semantic_hash": ""
+  },
+  "Services/PresetService.cs": {
+    "mtime": 1792150697.128209,
+    "seen": 1792237277.9304538,
+    "ast_hash": "c97a7e09d7eab7b9746a12cc8a8d173e",
+    "semantic_hash": ""
+  },
+  "Services/ProductionEngine.cs": {
+    "mtime": 1792244739.4287574,
+    "seen": 1792244810.5296934,
+    "ast_hash": "8982ac6a67d74b9c42651c6f766b5dcd",
+    "semantic_hash": ""
+  },
+  "Services/ProgramSurface.cs": {
+    "mtime": 1792212734.6648107,
+    "seen": 1792237277.9304574,
+    "ast_hash": "3c255786cbb2d5d0ba7882e6d3d1362c",
+    "semantic_hash": ""
+  },
+  "Services/PtzControllerService.cs": {
+    "mtime": 1792238142.400955,
+    "seen": 1792239857.845012,
+    "ast_hash": "c879d8eb0359e676c5329a10e0e5323a",
+    "semantic_hash": ""
+  },
+  "Services/RecordingEngine.cs": {
+    "mtime": 1792212262.8134942,
+    "seen": 1792237277.930461,
+    "ast_hash": "f44528f2f2caa1060c87981ecf93c6cd",
+    "semantic_hash": ""
+  },
+  "Services/ScreenCaptureService.cs": {
+    "mtime": 1792147224.3050487,
+    "seen": 1792237277.9304628,
+    "ast_hash": "66214d9c032a74c3209bafbe4c240f5f",
+    "semantic_hash": ""
+  },
+  "Services/ScriptingAndTriggersEngine.cs": {
+    "mtime": 1792151309.4522405,
+    "seen": 1792237277.9304643,
+    "ast_hash": "1e8a2a9d163729aeb02fc9d0e483c9c0",
+    "semantic_hash": ""
+  },
+  "Services/StreamingEngine.cs": {
+    "mtime": 1792236002.9051943,
+    "seen": 1792237277.930466,
+    "ast_hash": "950cc86d141fb6085229a3cbf693a4a9",
+    "semantic_hash": ""
+  },
+  "Services/TcpServerService.cs": {
+    "mtime": 1792153364.0451226,
+    "seen": 1792237277.9304676,
+    "ast_hash": "0f485c2e6a2fc6b055627455872fce06",
+    "semantic_hash": ""
+  },
+  "Services/TitleTemplate.cs": {
+    "mtime": 1792213634.366825,
+    "seen": 1792237277.9304693,
+    "ast_hash": "7ad821cd52977692fba1e017ef6d4249",
+    "semantic_hash": ""
+  },
+  "Services/WebServerService.cs": {
+    "mtime": 1792153232.2998939,
+    "seen": 1792237277.9304712,
+    "ast_hash": "6646cbc7c6608c14fae854b9895b7979",
+    "semantic_hash": ""
+  },
+  "Tests/ProductionEngineTests.cs": {
+    "mtime": 1792244397.0754218,
+    "seen": 1792244494.758165,
+    "ast_hash": "2268ad54bf3b061fdc38dc9dd31f4bfc",
+    "semantic_hash": ""
+  },
+  "TitleLibrary/TextBlockDesign.cs": {
+    "mtime": 1792212907.5877287,
+    "seen": 1792237277.9304745,
+    "ast_hash": "bfd2d1e45a788d9fdbb873463a6a6808",
+    "semantic_hash": ""
+  },
+  "Titles/AnimatedHD.xaml": {
+    "mtime": 1344950886.0,
+    "seen": 1792237277.9304762,
+    "ast_hash": "d3a4e84321c2304860af31520edbb338",
+    "semantic_hash": ""
+  },
+  "Titles/AnimatedInOutHD.xaml": {
+    "mtime": 1389346152.0,
+    "seen": 1792237277.9304779,
+    "ast_hash": "c5709975ee9fba4a250406b370b54f1c",
+    "semantic_hash": ""
+  },
+  "Titles/MultiViewHD.xaml": {
+    "mtime": 1316440450.0,
+    "seen": 1792237277.930481,
+    "ast_hash": "7f329fe116691e1cc3a4173fcac4a944",
+    "semantic_hash": ""
+  },
+  "Titles/MultiViewHD2.xaml": {
+    "mtime": 1316440418.0,
+    "seen": 1792237277.9304824,
+    "ast_hash": "eebb0585decad6b097aed69a97185c15",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD.xaml": {
+    "mtime": 1315990886.0,
+    "seen": 1792237277.9304843,
+    "ast_hash": "3fc5397491dd04911235e665b620d74f",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD10.xaml": {
+    "mtime": 1344772666.0,
+    "seen": 1792237277.9304857,
+    "ast_hash": "3e70bcb1fc65135890cd86563977ef5e",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD11.xaml": {
+    "mtime": 1344772704.0,
+    "seen": 1792237277.9304876,
+    "ast_hash": "eb08a47bb7638e3f82c05864eb758856",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD12.xaml": {
+    "mtime": 1344772710.0,
+    "seen": 1792237277.930489,
+    "ast_hash": "905af3d62dd6547d1daf88a85e64716b",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD13.xaml": {
+    "mtime": 1344772718.0,
+    "seen": 1792237277.930491,
+    "ast_hash": "adc3f6f51e918f03e90aa4f9cb151f11",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD14.xaml": {
+    "mtime": 1344772724.0,
+    "seen": 1792237277.9304924,
+    "ast_hash": "ec1054101ee1268123cc1004bac9668b",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD15.xaml": {
+    "mtime": 1344772736.0,
+    "seen": 1792237277.9304943,
+    "ast_hash": "ec471cccd9e24d070289e7b9209bed60",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD16.xaml": {
+    "mtime": 1344772746.0,
+    "seen": 1792237277.9304957,
+    "ast_hash": "9254c7f3e82ce9761772a17f87401c1c",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD17.xaml": {
+    "mtime": 1344772752.0,
+    "seen": 1792237277.9304972,
+    "ast_hash": "ff579c25803278f64b541939477ec86b",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD2.xaml": {
+    "mtime": 1316945826.0,
+    "seen": 1792237277.930499,
+    "ast_hash": "770b0380ac245541268d5a1b9976bd2b",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD3.xaml": {
+    "mtime": 1316945840.0,
+    "seen": 1792237277.9305012,
+    "ast_hash": "f5d4b6c0806cda574e3bd85ac42ff134",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD4.xaml": {
+    "mtime": 1316945508.0,
+    "seen": 1792237277.9305038,
+    "ast_hash": "d242ee567f6f00efe57874730483110e",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD5.xaml": {
+    "mtime": 1316945628.0,
+    "seen": 1792237277.9305065,
+    "ast_hash": "92f60e28cfb94c64485dce41cbf0fe78",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD6.xaml": {
+    "mtime": 1316945800.0,
+    "seen": 1792237277.9305093,
+    "ast_hash": "806cccfefa361ef1ec59949a8d2d384a",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD7.xaml": {
+    "mtime": 1344772694.0,
+    "seen": 1792237277.930512,
+    "ast_hash": "2a0ce44b805286b418ca4eeaaed14343",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD8.xaml": {
+    "mtime": 1344772688.0,
+    "seen": 1792237277.9305146,
+    "ast_hash": "7d5e4bfde5e93141666824fd04ff0f59",
+    "semantic_hash": ""
+  },
+  "Titles/NewsHD9.xaml": {
+    "mtime": 1344772676.0,
+    "seen": 1792237277.9305174,
+    "ast_hash": "681f330bdf00998e126b6d64aebd3257",
+    "semantic_hash": ""
+  },
+  "Titles/ScoreBoardHD.xaml": {
+    "mtime": 1315146704.0,
+    "seen": 1792237277.93052,
+    "ast_hash": "f3b33f486e6aeb3dc0b50e66957b403e",
+    "semantic_hash": ""
+  },
+  "Titles/ScoreBoardHD2.xaml": {
+    "mtime": 1316423932.0,
+    "seen": 1792237277.9305224,
+    "ast_hash": "7039fad769017b75a55160d37b5b6cb6",
+    "semantic_hash": ""
+  },
+  "Titles/Scoreboard1.xaml": {
+    "mtime": 1349253214.0,
+    "seen": 1792237277.9305246,
+    "ast_hash": "3d6b93e971290d0ceb3cf5fd44f259fd",
+    "semantic_hash": ""
+  },
+  "Titles/Scoreboard2.xaml": {
+    "mtime": 1351176018.0,
+    "seen": 1792237277.9305274,
+    "ast_hash": "dfff45bc445319b655fe3b142705a926",
+    "semantic_hash": ""
+  },
+  "Titles/Scoreboard3.xaml": {
+    "mtime": 1351177164.0,
+    "seen": 1792237277.9305305,
+    "ast_hash": "0bf47db23d32ff6a3269b4d92f63aec3",
+    "semantic_hash": ""
+  },
+  "Titles/Scoreboard4.xaml": {
+    "mtime": 1351176432.0,
+    "seen": 1792237277.9305336,
+    "ast_hash": "2e1582afaf320ecff9c30bf391783314",
+    "semantic_hash": ""
+  },
+  "Titles/Scoreboard5.xaml": {
+    "mtime": 1351176664.0,
+    "seen": 1792237277.9305365,
+    "ast_hash": "4406307bed215bb8cd3411df9587ce17",
+    "semantic_hash": ""
+  },
+  "Titles/TextHD.xaml": {
+    "mtime": 1315477642.0,
+    "seen": 1792237277.9305394,
+    "ast_hash": "f269450127d5479792e394702c102bdb",
+    "semantic_hash": ""
+  },
+  "Titles/TickerHD.xaml": {
+    "mtime": 1339239118.0,
+    "seen": 1792237277.930542,
+    "ast_hash": "b38dda514fd5a7468ce4af9c4665876e",
+    "semantic_hash": ""
+  },
+  "Titles/TickerHD2.xaml": {
+    "mtime": 1339235274.0,
+    "seen": 1792237277.9305449,
+    "ast_hash": "1c11686a13d15ca82f86341e8a6c9ba8",
+    "semantic_hash": ""
+  },
+  "Titles/TickerHD3.xaml": {
+    "mtime": 1344774288.0,
+    "seen": 1792237277.9305477,
+    "ast_hash": "16938d19f825bc9c8d2daefe9d3f10af",
+    "semantic_hash": ""
+  },
+  "Titles/Timer1.xaml": {
+    "mtime": 1349274902.0,
+    "seen": 1792237277.9305503,
+    "ast_hash": "991dd7c3f9e67757fafe252a24fe1451",
+    "semantic_hash": ""
+  },
+  "Titles/Timer2.xaml": {
+    "mtime": 1351175674.0,
+    "seen": 1792237277.9305532,
+    "ast_hash": "cb59bf9986f01fe73d8800bc0bcd0a3d",
+    "semantic_hash": ""
+  },
+  "Titles/TimerClock.xaml": {
+    "mtime": 1405244888.0,
+    "seen": 1792237277.9305568,
+    "ast_hash": "dcab0eed5ebc91ba3b1d0f66370853bf",
+    "semantic_hash": ""
+  },
+  "Titles/Title1.xaml": {
+    "mtime": 1351175704.0,
+    "seen": 1792237277.9305608,
+    "ast_hash": "062382bb87d471a133fd51a1fe41c886",
+    "semantic_hash": ""
+  },
+  "Titles/Title10.xaml": {
+    "mtime": 1351172896.0,
+    "seen": 1792237277.9305627,
+    "ast_hash": "f44c9a880ddfbd0aec19762e4e9d78e4",
+    "semantic_hash": ""
+  },
+  "Titles/Title11.xaml": {
+    "mtime": 1351173050.0,
+    "seen": 1792237277.9305646,
+    "ast_hash": "5740f30525c5ac2e842fb03373c9c6e0",
+    "semantic_hash": ""
+  },
+  "Titles/Title12.xaml": {
+    "mtime": 1351173212.0,
+    "seen": 1792237277.9305665,
+    "ast_hash": "d0bccd5824c26d4ecf3331539b001caf",
+    "semantic_hash": ""
+  },
+  "Titles/Title13.xaml": {
+    "mtime": 1351173428.0,
+    "seen": 1792237277.9305685,
+    "ast_hash": "fe327d059a02cafa3d0516ab491e31e9",
+    "semantic_hash": ""
+  },
+  "Titles/Title14.xaml": {
+    "mtime": 1351173606.0,
+    "seen": 1792237277.9305706,
+    "ast_hash": "d65b9db1a3f26b74d9748a54b3d59fa4",
+    "semantic_hash": ""
+  },
+  "Titles/Title2Blue.xaml": {
+    "mtime": 1351173992.0,
+    "seen": 1792237277.9305723,
+    "ast_hash": "3e34b77b8426f5c5894390857f5f2151",
+    "semantic_hash": ""
+  },
+  "Titles/Title2Green.xaml": {
+    "mtime": 1351173998.0,
+    "seen": 1792237277.9305742,
+    "ast_hash": "a595caba7137fe43776a587aacd9bc14",
+    "semantic_hash": ""
+  },
+  "Titles/Title2Red.xaml": {
+    "mtime": 1351174006.0,
+    "seen": 1792237277.9305758,
+    "ast_hash": "5fef74115fee84ab73ba6ccda2b8959c",
+    "semantic_hash": ""
+  },
+  "Titles/Title3Aqua.xaml": {
+    "mtime": 1351174266.0,
+    "seen": 1792237277.9305775,
+    "ast_hash": "a0ceb7b276f45e7722215a67e550d48d",
+    "semantic_hash": ""
+  },
+  "Titles/Title3AquaAlt.xaml": {
+    "mtime": 1351174298.0,
+    "seen": 1792237277.930581,
+    "ast_hash": "8c00e105ec2a869c426ac2ebb23de283",
+    "semantic_hash": ""
+  },
+  "Titles/Title3Blue.xaml": {
+    "mtime": 1351174320.0,
+    "seen": 1792237277.9305828,
+    "ast_hash": "a7ad17cccb6feed738e09782baf9ccee",
+    "semantic_hash": ""
+  },
+  "Titles/Title3BlueAlt.xaml": {
+    "mtime": 1351174356.0,
+    "seen": 1792237277.9305847,
+    "ast_hash": "a3074597a438d54803ea09789417003e",
+    "semantic_hash": ""
+  },
+  "Titles/Title3Red.xaml": {
+    "mtime": 1351174336.0,
+    "seen": 1792237277.930586,
+    "ast_hash": "4ca597fe2da298dcaa76e7f19a7efa24",
+    "semantic_hash": ""
+  },
+  "Titles/Title3RedAlt.xaml": {
+    "mtime": 1351174368.0,
+    "seen": 1792237277.930588,
+    "ast_hash": "f617718efcb4f16106d02a71009eb41c",
+    "semantic_hash": ""
+  },
+  "Titles/Title4.xaml": {
+    "mtime": 1351238752.0,
+    "seen": 1792237277.9305897,
+    "ast_hash": "e6a3dd12632ef7b36897ec9ee53c85ba",
+    "semantic_hash": ""
+  },
+  "Titles/Title5Blue.xaml": {
+    "mtime": 1351174746.0,
+    "seen": 1792237277.9305916,
+    "ast_hash": "d2342ff08b05f6668e523a03bccc11c8",
+    "semantic_hash": ""
+  },
+  "Titles/Title5Orange.xaml": {
+    "mtime": 1351174824.0,
+    "seen": 1792237277.930593,
+    "ast_hash": "2fa345223d6fe5bb1cb661c17a5f7390",
+    "semantic_hash": ""
+  },
+  "Titles/Title5Red.xaml": {
+    "mtime": 1351174866.0,
+    "seen": 1792237277.930595,
+    "ast_hash": "962d65b31d28e388f037e0d0880102dd",
+    "semantic_hash": ""
+  },
+  "Titles/Title5Yellow.xaml": {
+    "mtime": 1351174904.0,
+    "seen": 1792237277.9305964,
+    "ast_hash": "515683ef03f33c12ee2af8b7780f5477",
+    "semantic_hash": ""
+  },
+  "Titles/Title6.xaml": {
+    "mtime": 1351175286.0,
+    "seen": 1792237277.9305978,
+    "ast_hash": "804ea9ebc8e034273c93a6b02b55a56c",
+    "semantic_hash": ""
+  },
+  "Titles/Title7.xaml": {
+    "mtime": 1351175276.0,
+    "seen": 1792237277.9305997,
+    "ast_hash": "31dc72576add75201bb2980b71bc33da",
+    "semantic_hash": ""
+  },
+  "Titles/Title8AmericasBlue.xaml": {
+    "mtime": 1351175452.0,
+    "seen": 1792237277.9306014,
+    "ast_hash": "66ca0f2eeccf5521809a4cf83a8159b2",
+    "semantic_hash": ""
+  },
+  "Titles/Title8AmericasRed.xaml": {
+    "mtime": 1351175470.0,
+    "seen": 1792237277.9306037,
+    "ast_hash": "e87b3c30b40e6ac61a9ee4b438e3899f",
+    "semantic_hash": ""
+  },
+  "Titles/Title8AsiaBlue.xaml": {
+    "mtime": 1351175488.0,
+    "seen": 1792237277.9306054,
+    "ast_hash": "a97a01c9d92891b5f1ee828e15a61e08",
+    "semantic_hash": ""
+  },
+  "Titles/Title8AsiaRed.xaml": {
+    "mtime": 1351175496.0,
+    "seen": 1792237277.930607,
+    "ast_hash": "41bb8c7d38472d31ac6b66ababfadd8d",
+    "semantic_hash": ""
+  },
+  "Titles/Title8EuropeBlue.xaml": {
+    "mtime": 1351175504.0,
+    "seen": 1792237277.930609,
+    "ast_hash": "05c24fceb66f8c4db0bfa0f7316577dc",
+    "semantic_hash": ""
+  },
+  "Titles/Title8EuropeRed.xaml": {
+    "mtime": 1351175510.0,
+    "seen": 1792237277.9306107,
+    "ast_hash": "83ee672959b926f16c6107c2a2ad6f80",
+    "semantic_hash": ""
+  },
+  "Titles/Title9.xaml": {
+    "mtime": 1351175564.0,
+    "seen": 1792237277.9306123,
+    "ast_hash": "d5e4f3f93f18788a23991db31c140285",
+    "semantic_hash": ""
+  },
+  "VMixClone.csproj": {
+    "mtime": 1792240205.8471875,
+    "seen": 1792240581.8796325,
+    "ast_hash": "2dfb18a001497eae69710583586ebe9c",
+    "semantic_hash": ""
+  },
+  "Views/InputSettingsWindow.xaml": {
+    "mtime": 1792242022.47805,
+    "seen": 1792242264.9322128,
+    "ast_hash": "a8306b74025953c0146af4161d4e288e",
+    "semantic_hash": ""
+  },
+  "Views/InputSettingsWindow.xaml.cs": {
+    "mtime": 1792242049.2571707,
+    "seen": 1792242264.9322147,
+    "ast_hash": "c0e8029186d7e90c2c1cd1515d137be5",
+    "semantic_hash": ""
+  },
+  "Views/MultiViewWindow.xaml": {
+    "mtime": 1792240515.0965002,
+    "seen": 1792240581.8796377,
+    "ast_hash": "da32c0b72152beb6240657d34244666f",
+    "semantic_hash": ""
+  },
+  "Views/MultiViewWindow.xaml.cs": {
+    "mtime": 1792151385.0466084,
+    "seen": 1792237277.930621,
+    "ast_hash": "679dc4e97df82211cac01fb032e4cfd2",
+    "semantic_hash": ""
+  },
+  "Views/ReplayWindow.xaml": {
+    "mtime": 1792240501.0326087,
+    "seen": 1792240581.879641,
+    "ast_hash": "350189943924b44f516979945b0d8187",
+    "semantic_hash": ""
+  },
+  "Views/ReplayWindow.xaml.cs": {
+    "mtime": 1792151108.7201262,
+    "seen": 1792237277.9306245,
+    "ast_hash": "4756933744ad80e42073ad5e8b5bf393",
+    "semantic_hash": ""
+  },
+  "Views/SettingsWindow.xaml": {
+    "mtime": 1792244685.4828496,
+    "seen": 1792244810.529821,
+    "ast_hash": "476e6b158e1ccab7deb186f980ee45ad",
+    "semantic_hash": ""
+  },
+  "Views/SettingsWindow.xaml.cs": {
+    "mtime": 1792244726.2318268,
+    "seen": 1792244810.5298223,
+    "ast_hash": "2caf5ebfd9aef85f1b794cb4ce25b340",
+    "semantic_hash": ""
+  },
+  "Views/VirtualSetEditorWindow.xaml": {
+    "mtime": 1792241256.560541,
+    "seen": 1792241367.053493,
+    "ast_hash": "01fe910c82fd0b610b03bbb400f61fa7",
+    "semantic_hash": ""
+  },
+  "Views/VirtualSetEditorWindow.xaml.cs": {
+    "mtime": 1792150328.2675698,
+    "seen": 1792237277.9306316,
+    "ast_hash": "c338a75ffa465734495431fa80e906e2",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/AnimatedHD.xaml": {
+    "mtime": 1344950886.0,
+    "seen": 1792237277.9306335,
+    "ast_hash": "d3a4e84321c2304860af31520edbb338",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/AnimatedInOutHD.xaml": {
+    "mtime": 1389346152.0,
+    "seen": 1792237277.9306352,
+    "ast_hash": "c5709975ee9fba4a250406b370b54f1c",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/MultiViewHD.xaml": {
+    "mtime": 1316440450.0,
+    "seen": 1792237277.9306371,
+    "ast_hash": "7f329fe116691e1cc3a4173fcac4a944",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/MultiViewHD2.xaml": {
+    "mtime": 1316440418.0,
+    "seen": 1792237277.9306386,
+    "ast_hash": "eebb0585decad6b097aed69a97185c15",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD.xaml": {
+    "mtime": 1315990886.0,
+    "seen": 1792237277.9306405,
+    "ast_hash": "3fc5397491dd04911235e665b620d74f",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD10.xaml": {
+    "mtime": 1344772666.0,
+    "seen": 1792237277.9306421,
+    "ast_hash": "3e70bcb1fc65135890cd86563977ef5e",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD11.xaml": {
+    "mtime": 1344772704.0,
+    "seen": 1792237277.930644,
+    "ast_hash": "eb08a47bb7638e3f82c05864eb758856",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD12.xaml": {
+    "mtime": 1344772710.0,
+    "seen": 1792237277.9306455,
+    "ast_hash": "905af3d62dd6547d1daf88a85e64716b",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD13.xaml": {
+    "mtime": 1344772718.0,
+    "seen": 1792237277.9306474,
+    "ast_hash": "adc3f6f51e918f03e90aa4f9cb151f11",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD14.xaml": {
+    "mtime": 1344772724.0,
+    "seen": 1792237277.9306488,
+    "ast_hash": "ec1054101ee1268123cc1004bac9668b",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD15.xaml": {
+    "mtime": 1344772736.0,
+    "seen": 1792237277.9306507,
+    "ast_hash": "ec471cccd9e24d070289e7b9209bed60",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD16.xaml": {
+    "mtime": 1344772746.0,
+    "seen": 1792237277.9306524,
+    "ast_hash": "9254c7f3e82ce9761772a17f87401c1c",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD17.xaml": {
+    "mtime": 1344772752.0,
+    "seen": 1792237277.930654,
+    "ast_hash": "ff579c25803278f64b541939477ec86b",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD2.xaml": {
+    "mtime": 1316945826.0,
+    "seen": 1792237277.9306555,
+    "ast_hash": "770b0380ac245541268d5a1b9976bd2b",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD3.xaml": {
+    "mtime": 1316945840.0,
+    "seen": 1792237277.9306576,
+    "ast_hash": "f5d4b6c0806cda574e3bd85ac42ff134",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD4.xaml": {
+    "mtime": 1316945508.0,
+    "seen": 1792237277.930659,
+    "ast_hash": "d242ee567f6f00efe57874730483110e",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD5.xaml": {
+    "mtime": 1316945628.0,
+    "seen": 1792237277.930661,
+    "ast_hash": "92f60e28cfb94c64485dce41cbf0fe78",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD6.xaml": {
+    "mtime": 1316945800.0,
+    "seen": 1792237277.9306624,
+    "ast_hash": "806cccfefa361ef1ec59949a8d2d384a",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD7.xaml": {
+    "mtime": 1344772694.0,
+    "seen": 1792237277.9306643,
+    "ast_hash": "2a0ce44b805286b418ca4eeaaed14343",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD8.xaml": {
+    "mtime": 1344772688.0,
+    "seen": 1792237277.930666,
+    "ast_hash": "7d5e4bfde5e93141666824fd04ff0f59",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/NewsHD9.xaml": {
+    "mtime": 1344772676.0,
+    "seen": 1792237277.9306679,
+    "ast_hash": "681f330bdf00998e126b6d64aebd3257",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/ScoreBoardHD.xaml": {
+    "mtime": 1315146704.0,
+    "seen": 1792237277.9306698,
+    "ast_hash": "f3b33f486e6aeb3dc0b50e66957b403e",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/ScoreBoardHD2.xaml": {
+    "mtime": 1316423932.0,
+    "seen": 1792237277.9306717,
+    "ast_hash": "7039fad769017b75a55160d37b5b6cb6",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Scoreboard1.xaml": {
+    "mtime": 1349253214.0,
+    "seen": 1792237277.9306734,
+    "ast_hash": "3d6b93e971290d0ceb3cf5fd44f259fd",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Scoreboard2.xaml": {
+    "mtime": 1351176018.0,
+    "seen": 1792237277.930675,
+    "ast_hash": "dfff45bc445319b655fe3b142705a926",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Scoreboard3.xaml": {
+    "mtime": 1351177164.0,
+    "seen": 1792237277.9306767,
+    "ast_hash": "0bf47db23d32ff6a3269b4d92f63aec3",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Scoreboard4.xaml": {
+    "mtime": 1351176432.0,
+    "seen": 1792237277.9306784,
+    "ast_hash": "2e1582afaf320ecff9c30bf391783314",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Scoreboard5.xaml": {
+    "mtime": 1351176664.0,
+    "seen": 1792237277.93068,
+    "ast_hash": "4406307bed215bb8cd3411df9587ce17",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/TextHD.xaml": {
+    "mtime": 1315477642.0,
+    "seen": 1792237277.930682,
+    "ast_hash": "f269450127d5479792e394702c102bdb",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/TickerHD.xaml": {
+    "mtime": 1339239118.0,
+    "seen": 1792237277.9306834,
+    "ast_hash": "b38dda514fd5a7468ce4af9c4665876e",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/TickerHD2.xaml": {
+    "mtime": 1339235274.0,
+    "seen": 1792237277.9306853,
+    "ast_hash": "1c11686a13d15ca82f86341e8a6c9ba8",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/TickerHD3.xaml": {
+    "mtime": 1344774288.0,
+    "seen": 1792237277.9306867,
+    "ast_hash": "16938d19f825bc9c8d2daefe9d3f10af",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Timer1.xaml": {
+    "mtime": 1349274902.0,
+    "seen": 1792237277.9306889,
+    "ast_hash": "991dd7c3f9e67757fafe252a24fe1451",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Timer2.xaml": {
+    "mtime": 1351175674.0,
+    "seen": 1792237277.9306948,
+    "ast_hash": "cb59bf9986f01fe73d8800bc0bcd0a3d",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/TimerClock.xaml": {
+    "mtime": 1405244888.0,
+    "seen": 1792237277.9306967,
+    "ast_hash": "dcab0eed5ebc91ba3b1d0f66370853bf",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title1.xaml": {
+    "mtime": 1351175704.0,
+    "seen": 1792237277.9306986,
+    "ast_hash": "062382bb87d471a133fd51a1fe41c886",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title10.xaml": {
+    "mtime": 1351172896.0,
+    "seen": 1792237277.9307005,
+    "ast_hash": "f44c9a880ddfbd0aec19762e4e9d78e4",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title11.xaml": {
+    "mtime": 1351173050.0,
+    "seen": 1792237277.9307024,
+    "ast_hash": "5740f30525c5ac2e842fb03373c9c6e0",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title12.xaml": {
+    "mtime": 1351173212.0,
+    "seen": 1792237277.9307039,
+    "ast_hash": "d0bccd5824c26d4ecf3331539b001caf",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title13.xaml": {
+    "mtime": 1351173428.0,
+    "seen": 1792237277.9307055,
+    "ast_hash": "fe327d059a02cafa3d0516ab491e31e9",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title14.xaml": {
+    "mtime": 1351173606.0,
+    "seen": 1792237277.9307075,
+    "ast_hash": "d65b9db1a3f26b74d9748a54b3d59fa4",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title2Blue.xaml": {
+    "mtime": 1351173992.0,
+    "seen": 1792237277.930709,
+    "ast_hash": "3e34b77b8426f5c5894390857f5f2151",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title2Green.xaml": {
+    "mtime": 1351173998.0,
+    "seen": 1792237277.9307108,
+    "ast_hash": "a595caba7137fe43776a587aacd9bc14",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title2Red.xaml": {
+    "mtime": 1351174006.0,
+    "seen": 1792237277.9307125,
+    "ast_hash": "5fef74115fee84ab73ba6ccda2b8959c",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title3Aqua.xaml": {
+    "mtime": 1351174266.0,
+    "seen": 1792237277.9307144,
+    "ast_hash": "a0ceb7b276f45e7722215a67e550d48d",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title3AquaAlt.xaml": {
+    "mtime": 1351174298.0,
+    "seen": 1792237277.9307158,
+    "ast_hash": "8c00e105ec2a869c426ac2ebb23de283",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title3Blue.xaml": {
+    "mtime": 1351174320.0,
+    "seen": 1792237277.9307177,
+    "ast_hash": "a7ad17cccb6feed738e09782baf9ccee",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title3BlueAlt.xaml": {
+    "mtime": 1351174356.0,
+    "seen": 1792237277.9307194,
+    "ast_hash": "a3074597a438d54803ea09789417003e",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title3Red.xaml": {
+    "mtime": 1351174336.0,
+    "seen": 1792237277.9307215,
+    "ast_hash": "4ca597fe2da298dcaa76e7f19a7efa24",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title3RedAlt.xaml": {
+    "mtime": 1351174368.0,
+    "seen": 1792237277.9307234,
+    "ast_hash": "f617718efcb4f16106d02a71009eb41c",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title4.xaml": {
+    "mtime": 1351238752.0,
+    "seen": 1792237277.9307253,
+    "ast_hash": "e6a3dd12632ef7b36897ec9ee53c85ba",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title5Blue.xaml": {
+    "mtime": 1351174746.0,
+    "seen": 1792237277.9307272,
+    "ast_hash": "d2342ff08b05f6668e523a03bccc11c8",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title5Orange.xaml": {
+    "mtime": 1351174824.0,
+    "seen": 1792237277.930729,
+    "ast_hash": "2fa345223d6fe5bb1cb661c17a5f7390",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title5Red.xaml": {
+    "mtime": 1351174866.0,
+    "seen": 1792237277.9307306,
+    "ast_hash": "962d65b31d28e388f037e0d0880102dd",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title5Yellow.xaml": {
+    "mtime": 1351174904.0,
+    "seen": 1792237277.9307323,
+    "ast_hash": "515683ef03f33c12ee2af8b7780f5477",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title6.xaml": {
+    "mtime": 1351175286.0,
+    "seen": 1792237277.9307365,
+    "ast_hash": "804ea9ebc8e034273c93a6b02b55a56c",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title7.xaml": {
+    "mtime": 1351175276.0,
+    "seen": 1792237277.93074,
+    "ast_hash": "31dc72576add75201bb2980b71bc33da",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title8AmericasBlue.xaml": {
+    "mtime": 1351175452.0,
+    "seen": 1792237277.9307423,
+    "ast_hash": "66ca0f2eeccf5521809a4cf83a8159b2",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title8AmericasRed.xaml": {
+    "mtime": 1351175470.0,
+    "seen": 1792237277.9307437,
+    "ast_hash": "e87b3c30b40e6ac61a9ee4b438e3899f",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title8AsiaBlue.xaml": {
+    "mtime": 1351175488.0,
+    "seen": 1792237277.9307456,
+    "ast_hash": "a97a01c9d92891b5f1ee828e15a61e08",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title8AsiaRed.xaml": {
+    "mtime": 1351175496.0,
+    "seen": 1792237277.9307475,
+    "ast_hash": "41bb8c7d38472d31ac6b66ababfadd8d",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title8EuropeBlue.xaml": {
+    "mtime": 1351175504.0,
+    "seen": 1792237277.9307492,
+    "ast_hash": "05c24fceb66f8c4db0bfa0f7316577dc",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title8EuropeRed.xaml": {
+    "mtime": 1351175510.0,
+    "seen": 1792237277.930751,
+    "ast_hash": "83ee672959b926f16c6107c2a2ad6f80",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Titles/Title9.xaml": {
+    "mtime": 1351175564.0,
+    "seen": 1792237277.9307525,
+    "ast_hash": "d5e4f3f93f18788a23991db31c140285",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VMixClone.deps.json": {
+    "mtime": 1792240215.160712,
+    "seen": 1792240581.8797672,
+    "ast_hash": "7865161ef4132001a656888d163435b4",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VMixClone.runtimeconfig.json": {
+    "mtime": 1792146407.416981,
+    "seen": 1792237277.930756,
+    "ast_hash": "b451096fec6028f9acbd24badac69055",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/AnimatedHD.xaml": {
+    "mtime": 1344950886.0,
+    "seen": 1792237277.9307582,
+    "ast_hash": "d3a4e84321c2304860af31520edbb338",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/AnimatedInOutHD.xaml": {
+    "mtime": 1389346152.0,
+    "seen": 1792237277.9307597,
+    "ast_hash": "c5709975ee9fba4a250406b370b54f1c",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/MultiViewHD.xaml": {
+    "mtime": 1316440450.0,
+    "seen": 1792237277.930762,
+    "ast_hash": "7f329fe116691e1cc3a4173fcac4a944",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/MultiViewHD2.xaml": {
+    "mtime": 1316440418.0,
+    "seen": 1792237277.9307637,
+    "ast_hash": "eebb0585decad6b097aed69a97185c15",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD.xaml": {
+    "mtime": 1315990886.0,
+    "seen": 1792237277.9307654,
+    "ast_hash": "3fc5397491dd04911235e665b620d74f",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD10.xaml": {
+    "mtime": 1344772666.0,
+    "seen": 1792237277.930767,
+    "ast_hash": "3e70bcb1fc65135890cd86563977ef5e",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD11.xaml": {
+    "mtime": 1344772704.0,
+    "seen": 1792237277.930769,
+    "ast_hash": "eb08a47bb7638e3f82c05864eb758856",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD12.xaml": {
+    "mtime": 1344772710.0,
+    "seen": 1792237277.9307704,
+    "ast_hash": "905af3d62dd6547d1daf88a85e64716b",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD13.xaml": {
+    "mtime": 1344772718.0,
+    "seen": 1792237277.9307723,
+    "ast_hash": "adc3f6f51e918f03e90aa4f9cb151f11",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD14.xaml": {
+    "mtime": 1344772724.0,
+    "seen": 1792237277.9307737,
+    "ast_hash": "ec1054101ee1268123cc1004bac9668b",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD15.xaml": {
+    "mtime": 1344772736.0,
+    "seen": 1792237277.9307756,
+    "ast_hash": "ec471cccd9e24d070289e7b9209bed60",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD16.xaml": {
+    "mtime": 1344772746.0,
+    "seen": 1792237277.9307773,
+    "ast_hash": "9254c7f3e82ce9761772a17f87401c1c",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD17.xaml": {
+    "mtime": 1344772752.0,
+    "seen": 1792237277.930779,
+    "ast_hash": "ff579c25803278f64b541939477ec86b",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD2.xaml": {
+    "mtime": 1316945826.0,
+    "seen": 1792237277.9307806,
+    "ast_hash": "770b0380ac245541268d5a1b9976bd2b",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD3.xaml": {
+    "mtime": 1316945840.0,
+    "seen": 1792237277.9307823,
+    "ast_hash": "f5d4b6c0806cda574e3bd85ac42ff134",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD4.xaml": {
+    "mtime": 1316945508.0,
+    "seen": 1792237277.930784,
+    "ast_hash": "d242ee567f6f00efe57874730483110e",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD5.xaml": {
+    "mtime": 1316945628.0,
+    "seen": 1792237277.930786,
+    "ast_hash": "92f60e28cfb94c64485dce41cbf0fe78",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD6.xaml": {
+    "mtime": 1316945800.0,
+    "seen": 1792237277.9307876,
+    "ast_hash": "806cccfefa361ef1ec59949a8d2d384a",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD7.xaml": {
+    "mtime": 1344772694.0,
+    "seen": 1792237277.9307892,
+    "ast_hash": "2a0ce44b805286b418ca4eeaaed14343",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD8.xaml": {
+    "mtime": 1344772688.0,
+    "seen": 1792237277.930791,
+    "ast_hash": "7d5e4bfde5e93141666824fd04ff0f59",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/NewsHD9.xaml": {
+    "mtime": 1344772676.0,
+    "seen": 1792237277.9307928,
+    "ast_hash": "681f330bdf00998e126b6d64aebd3257",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/ScoreBoardHD.xaml": {
+    "mtime": 1315146704.0,
+    "seen": 1792237277.9307942,
+    "ast_hash": "f3b33f486e6aeb3dc0b50e66957b403e",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/ScoreBoardHD2.xaml": {
+    "mtime": 1316423932.0,
+    "seen": 1792237277.9307961,
+    "ast_hash": "7039fad769017b75a55160d37b5b6cb6",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Scoreboard1.xaml": {
+    "mtime": 1349253214.0,
+    "seen": 1792237277.9307978,
+    "ast_hash": "3d6b93e971290d0ceb3cf5fd44f259fd",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Scoreboard2.xaml": {
+    "mtime": 1351176018.0,
+    "seen": 1792237277.9307997,
+    "ast_hash": "dfff45bc445319b655fe3b142705a926",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Scoreboard3.xaml": {
+    "mtime": 1351177164.0,
+    "seen": 1792237277.9308014,
+    "ast_hash": "0bf47db23d32ff6a3269b4d92f63aec3",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Scoreboard4.xaml": {
+    "mtime": 1351176432.0,
+    "seen": 1792237277.930803,
+    "ast_hash": "2e1582afaf320ecff9c30bf391783314",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Scoreboard5.xaml": {
+    "mtime": 1351176664.0,
+    "seen": 1792237277.9308047,
+    "ast_hash": "4406307bed215bb8cd3411df9587ce17",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/TextHD.xaml": {
+    "mtime": 1315477642.0,
+    "seen": 1792237277.9308066,
+    "ast_hash": "f269450127d5479792e394702c102bdb",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/TickerHD.xaml": {
+    "mtime": 1339239118.0,
+    "seen": 1792237277.9308083,
+    "ast_hash": "b38dda514fd5a7468ce4af9c4665876e",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/TickerHD2.xaml": {
+    "mtime": 1339235274.0,
+    "seen": 1792237277.9308102,
+    "ast_hash": "1c11686a13d15ca82f86341e8a6c9ba8",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/TickerHD3.xaml": {
+    "mtime": 1344774288.0,
+    "seen": 1792237277.930812,
+    "ast_hash": "16938d19f825bc9c8d2daefe9d3f10af",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Timer1.xaml": {
+    "mtime": 1349274902.0,
+    "seen": 1792237277.9308138,
+    "ast_hash": "991dd7c3f9e67757fafe252a24fe1451",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Timer2.xaml": {
+    "mtime": 1351175674.0,
+    "seen": 1792237277.9308155,
+    "ast_hash": "cb59bf9986f01fe73d8800bc0bcd0a3d",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/TimerClock.xaml": {
+    "mtime": 1405244888.0,
+    "seen": 1792237277.9308171,
+    "ast_hash": "dcab0eed5ebc91ba3b1d0f66370853bf",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title1.xaml": {
+    "mtime": 1351175704.0,
+    "seen": 1792237277.9308188,
+    "ast_hash": "062382bb87d471a133fd51a1fe41c886",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title10.xaml": {
+    "mtime": 1351172896.0,
+    "seen": 1792237277.9308207,
+    "ast_hash": "f44c9a880ddfbd0aec19762e4e9d78e4",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title11.xaml": {
+    "mtime": 1351173050.0,
+    "seen": 1792237277.9308224,
+    "ast_hash": "5740f30525c5ac2e842fb03373c9c6e0",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title12.xaml": {
+    "mtime": 1351173212.0,
+    "seen": 1792237277.9308243,
+    "ast_hash": "d0bccd5824c26d4ecf3331539b001caf",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title13.xaml": {
+    "mtime": 1351173428.0,
+    "seen": 1792237277.930826,
+    "ast_hash": "fe327d059a02cafa3d0516ab491e31e9",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title14.xaml": {
+    "mtime": 1351173606.0,
+    "seen": 1792237277.9308279,
+    "ast_hash": "d65b9db1a3f26b74d9748a54b3d59fa4",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title2Blue.xaml": {
+    "mtime": 1351173992.0,
+    "seen": 1792237277.9308295,
+    "ast_hash": "3e34b77b8426f5c5894390857f5f2151",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title2Green.xaml": {
+    "mtime": 1351173998.0,
+    "seen": 1792237277.9308314,
+    "ast_hash": "a595caba7137fe43776a587aacd9bc14",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title2Red.xaml": {
+    "mtime": 1351174006.0,
+    "seen": 1792237277.9308329,
+    "ast_hash": "5fef74115fee84ab73ba6ccda2b8959c",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title3Aqua.xaml": {
+    "mtime": 1351174266.0,
+    "seen": 1792237277.9308348,
+    "ast_hash": "a0ceb7b276f45e7722215a67e550d48d",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title3AquaAlt.xaml": {
+    "mtime": 1351174298.0,
+    "seen": 1792237277.9308364,
+    "ast_hash": "8c00e105ec2a869c426ac2ebb23de283",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title3Blue.xaml": {
+    "mtime": 1351174320.0,
+    "seen": 1792237277.930838,
+    "ast_hash": "a7ad17cccb6feed738e09782baf9ccee",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title3BlueAlt.xaml": {
+    "mtime": 1351174356.0,
+    "seen": 1792237277.9308398,
+    "ast_hash": "a3074597a438d54803ea09789417003e",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title3Red.xaml": {
+    "mtime": 1351174336.0,
+    "seen": 1792237277.9308417,
+    "ast_hash": "4ca597fe2da298dcaa76e7f19a7efa24",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title3RedAlt.xaml": {
+    "mtime": 1351174368.0,
+    "seen": 1792237277.930843,
+    "ast_hash": "f617718efcb4f16106d02a71009eb41c",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title4.xaml": {
+    "mtime": 1351238752.0,
+    "seen": 1792237277.930845,
+    "ast_hash": "e6a3dd12632ef7b36897ec9ee53c85ba",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title5Blue.xaml": {
+    "mtime": 1351174746.0,
+    "seen": 1792237277.9308467,
+    "ast_hash": "d2342ff08b05f6668e523a03bccc11c8",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title5Orange.xaml": {
+    "mtime": 1351174824.0,
+    "seen": 1792237277.9308484,
+    "ast_hash": "2fa345223d6fe5bb1cb661c17a5f7390",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title5Red.xaml": {
+    "mtime": 1351174866.0,
+    "seen": 1792237277.93085,
+    "ast_hash": "962d65b31d28e388f037e0d0880102dd",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title5Yellow.xaml": {
+    "mtime": 1351174904.0,
+    "seen": 1792237277.9308517,
+    "ast_hash": "515683ef03f33c12ee2af8b7780f5477",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title6.xaml": {
+    "mtime": 1351175286.0,
+    "seen": 1792237277.9308534,
+    "ast_hash": "804ea9ebc8e034273c93a6b02b55a56c",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title7.xaml": {
+    "mtime": 1351175276.0,
+    "seen": 1792237277.9308548,
+    "ast_hash": "31dc72576add75201bb2980b71bc33da",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title8AmericasBlue.xaml": {
+    "mtime": 1351175452.0,
+    "seen": 1792237277.9308567,
+    "ast_hash": "66ca0f2eeccf5521809a4cf83a8159b2",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title8AmericasRed.xaml": {
+    "mtime": 1351175470.0,
+    "seen": 1792237277.9308581,
+    "ast_hash": "e87b3c30b40e6ac61a9ee4b438e3899f",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title8AsiaBlue.xaml": {
+    "mtime": 1351175488.0,
+    "seen": 1792237277.93086,
+    "ast_hash": "a97a01c9d92891b5f1ee828e15a61e08",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title8AsiaRed.xaml": {
+    "mtime": 1351175496.0,
+    "seen": 1792237277.9308617,
+    "ast_hash": "41bb8c7d38472d31ac6b66ababfadd8d",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title8EuropeBlue.xaml": {
+    "mtime": 1351175504.0,
+    "seen": 1792237277.9308636,
+    "ast_hash": "05c24fceb66f8c4db0bfa0f7316577dc",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title8EuropeRed.xaml": {
+    "mtime": 1351175510.0,
+    "seen": 1792237277.930865,
+    "ast_hash": "83ee672959b926f16c6107c2a2ad6f80",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Titles/Title9.xaml": {
+    "mtime": 1351175564.0,
+    "seen": 1792237277.9308667,
+    "ast_hash": "d5e4f3f93f18788a23991db31c140285",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VMixClone.deps.json": {
+    "mtime": 1792240708.5031054,
+    "seen": 1792241367.0541034,
+    "ast_hash": "7865161ef4132001a656888d163435b4",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VMixClone.runtimeconfig.json": {
+    "mtime": 1792146899.4868941,
+    "seen": 1792237277.9308703,
+    "ast_hash": "7e4444b5a3e3cea574693f055f944011",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1792146404.754594,
+    "seen": 1792237277.930872,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/AddInputDialog.g.cs": {
+    "mtime": 1792244331.6795938,
+    "seen": 1792244494.7585173,
+    "ast_hash": "e6a2473ddf3f8ac0948dd30eaccc57e9",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/App.g.cs": {
+    "mtime": 1792245760.7850878,
+    "seen": 1792245828.452554,
+    "ast_hash": "70a0dbc43777d9a9a8ebc40c2ecb0341",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/Controls/InputDisplay.g.cs": {
+    "mtime": 1792245760.8046155,
+    "seen": 1792245828.4525576,
+    "ast_hash": "84c1fb98d095b88f1cca382627786480",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/Controls/VirtualSetView.g.cs": {
+    "mtime": 1792245760.8122962,
+    "seen": 1792245828.45257,
+    "ast_hash": "ace28322ae038bd1cb09a046c5600c0e",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/GeneratedInternalTypeHelper.g.cs": {
+    "mtime": 1792245760.8067663,
+    "seen": 1792245828.4525733,
+    "ast_hash": "0c0e0a947704f7051ea32393d665fa5c",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/MainWindow.g.cs": {
+    "mtime": 1792245760.8515034,
+    "seen": 1792245828.452576,
+    "ast_hash": "f7aaaf4155c03477a99db88b6e6c5e97",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone.AssemblyInfo.cs": {
+    "mtime": 1792146407.146767,
+    "seen": 1792237277.930884,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone.GlobalUsings.g.cs": {
+    "mtime": 1792146404.1863277,
+    "seen": 1792237277.9308856,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_0d5jotbb_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792236958.30069,
+    "seen": 1792237277.9308875,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_0d5jotbb_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792236958.3026905,
+    "seen": 1792237277.930889,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_120qldxg_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792212471.613407,
+    "seen": 1792237277.930891,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_120qldxg_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792212471.6154072,
+    "seen": 1792237277.9308927,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_1n4xmile_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792214590.7527556,
+    "seen": 1792237277.9308946,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_1n4xmile_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792214590.757896,
+    "seen": 1792237277.9308963,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_22yrwiui_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792236026.9527612,
+    "seen": 1792237277.9308982,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_22yrwiui_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792236026.9552846,
+    "seen": 1792237277.9308996,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_2u10tgwe_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792213170.1697195,
+    "seen": 1792237277.9309015,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_2u10tgwe_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792213170.171719,
+    "seen": 1792237277.9309032,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_3tyefshb_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792151780.0552526,
+    "seen": 1792237277.930905,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_3tyefshb_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792151780.0592518,
+    "seen": 1792237277.9309068,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_4vz3tqcu_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792154111.0195465,
+    "seen": 1792237277.930909,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_4vz3tqcu_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792154111.0215468,
+    "seen": 1792237277.9309108,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_55ppinb3_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792233822.8655188,
+    "seen": 1792237277.9309125,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_55ppinb3_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792233822.867675,
+    "seen": 1792237277.9309144,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_5b4wnepf_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792150826.3111777,
+    "seen": 1792237277.9309158,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_5b4wnepf_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792150826.3151772,
+    "seen": 1792237277.9309177,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_5m50vr0w_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792150777.7423966,
+    "seen": 1792237277.9309194,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_5m50vr0w_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792150777.7463949,
+    "seen": 1792237277.9309213,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_a2hlq0lx_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792153994.8766866,
+    "seen": 1792237277.930923,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_a2hlq0lx_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792153994.8793218,
+    "seen": 1792237277.930925,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_a5xpmjfj_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792214516.6037407,
+    "seen": 1792237277.9309266,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_a5xpmjfj_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792214516.6057467,
+    "seen": 1792237277.9309285,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_akmnxs5o_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792147509.3348439,
+    "seen": 1792237277.93094,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_akmnxs5o_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792147509.3433757,
+    "seen": 1792237277.9309423,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_bme2cycq_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792146725.6599157,
+    "seen": 1792237277.930944,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_bme2cycq_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792146725.661916,
+    "seen": 1792237277.9309459,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_c2g2dk3i_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792213370.7450683,
+    "seen": 1792237277.9309475,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_c2g2dk3i_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792213370.7494855,
+    "seen": 1792237277.9309497,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_ecjel02z_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792214078.7251084,
+    "seen": 1792237277.9309514,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_ecjel02z_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792214078.7281096,
+    "seen": 1792237277.9309533,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_fqicvjxf_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792214016.2693677,
+    "seen": 1792237277.930955,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_fqicvjxf_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792214016.2719455,
+    "seen": 1792237277.9309568,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_g1o2iodb_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792148428.590063,
+    "seen": 1792237277.9309585,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_g1o2iodb_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792148428.5925565,
+    "seen": 1792237277.9309607,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_iqy0akqs_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792154197.8170826,
+    "seen": 1792237277.930962,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_iqy0akqs_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792154197.819084,
+    "seen": 1792237277.930964,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_jjsiz4fx_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792215126.3419578,
+    "seen": 1792237277.9309654,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_jjsiz4fx_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792215126.3468566,
+    "seen": 1792237277.9309673,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_jtzvfo5z_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792213657.70151,
+    "seen": 1792237277.930969,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_jtzvfo5z_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792213657.7040284,
+    "seen": 1792237277.9309707,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_k1i3fhgx_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792213126.5435224,
+    "seen": 1792237277.9309726,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_k1i3fhgx_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792213126.54692,
+    "seen": 1792237277.9309742,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_keppv142_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792149931.7626278,
+    "seen": 1792237277.930976,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_keppv142_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792149931.7662156,
+    "seen": 1792237277.9309778,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_kfzalj10_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792148447.7963812,
+    "seen": 1792237277.9309797,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_kfzalj10_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792148447.8003814,
+    "seen": 1792237277.9309816,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_koqrnkxh_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792153374.9152248,
+    "seen": 1792237277.9309833,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_koqrnkxh_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792153374.9172318,
+    "seen": 1792237277.9309852,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_m5vcycqt_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792212679.187421,
+    "seen": 1792237277.9309871,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_m5vcycqt_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792212679.1909406,
+    "seen": 1792237277.9309888,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_mgkxv2cy_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792212341.3940463,
+    "seen": 1792237277.9309907,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_mgkxv2cy_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792212341.397048,
+    "seen": 1792237277.9309924,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_nmm5ehgj_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792148485.9615147,
+    "seen": 1792237277.9309943,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_nmm5ehgj_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792148485.9635158,
+    "seen": 1792237277.930996,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_nxgpslnj_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792212768.5112836,
+    "seen": 1792237277.9309976,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_nxgpslnj_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792212768.5134158,
+    "seen": 1792237277.9309993,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_odl50nxd_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792214158.0917144,
+    "seen": 1792237277.9310012,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_odl50nxd_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792214158.1028883,
+    "seen": 1792237277.9310029,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_omvasojv_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792148093.8442674,
+    "seen": 1792237277.9310067,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_omvasojv_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792148093.8469718,
+    "seen": 1792237277.9310086,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_oy5dfz4m_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792146404.7988243,
+    "seen": 1792237277.9310102,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_oy5dfz4m_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792146404.8018274,
+    "seen": 1792237277.9310122,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_p4rluxou_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792213543.7512822,
+    "seen": 1792237277.9310138,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_p4rluxou_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792213543.7548022,
+    "seen": 1792237277.9310155,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_puin4uda_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792148972.9142466,
+    "seen": 1792237277.9310174,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_puin4uda_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792148972.9182613,
+    "seen": 1792237277.9310193,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_qvdlt4o5_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792146890.1060562,
+    "seen": 1792237277.931021,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_qvdlt4o5_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792146890.108058,
+    "seen": 1792237277.9310231,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_rjilbaqc_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792146760.835943,
+    "seen": 1792237277.9310248,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_rjilbaqc_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792146760.837942,
+    "seen": 1792237277.9310267,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_s24tsmco_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792212538.4812953,
+    "seen": 1792237277.9310284,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_s24tsmco_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792212538.488739,
+    "seen": 1792237277.93103,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_sj5bkevh_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792146569.5931814,
+    "seen": 1792237277.9310317,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_sj5bkevh_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792146569.5961761,
+    "seen": 1792237277.9310336,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_th0iv03p_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792153411.5346284,
+    "seen": 1792237277.9310353,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_th0iv03p_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792153411.5366147,
+    "seen": 1792237277.931037,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_uufitlmu_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792154064.5219405,
+    "seen": 1792237277.9310386,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_uufitlmu_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792154064.5259552,
+    "seen": 1792237277.9310405,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_vzxjsnq3_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792213878.5031676,
+    "seen": 1792237277.9310422,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_vzxjsnq3_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792213878.5062494,
+    "seen": 1792237277.931044,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_wp4ysa1a_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792146943.7428422,
+    "seen": 1792237277.9310455,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_wp4ysa1a_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792146943.7448492,
+    "seen": 1792237277.9310474,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_wyacreah_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792212423.7977693,
+    "seen": 1792237277.931049,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_wyacreah_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792212423.7997582,
+    "seen": 1792237277.931056,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_yspi54xz_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792149556.9273355,
+    "seen": 1792237277.931058,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_yspi54xz_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792149556.9303308,
+    "seen": 1792237277.9310596,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_zks4cxvv_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792153482.371293,
+    "seen": 1792237277.9310613,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_zks4cxvv_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792153482.3758152,
+    "seen": 1792237277.9310634,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/Views/InputSettingsWindow.g.cs": {
+    "mtime": 1792242118.506567,
+    "seen": 1792242264.932801,
+    "ast_hash": "9bdf1bad9ef3fa7e655e3b37ed5f915d",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/Views/MultiViewWindow.g.cs": {
+    "mtime": 1792245760.8534915,
+    "seen": 1792245828.4529874,
+    "ast_hash": "c9db8c4210c51b1d53d1c946bc54d848",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/Views/ReplayWindow.g.cs": {
+    "mtime": 1792245760.8712795,
+    "seen": 1792245828.452993,
+    "ast_hash": "2d788dfd6f304028f1faa552d5ac4360",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/Views/SettingsWindow.g.cs": {
+    "mtime": 1792244751.477673,
+    "seen": 1792244810.5302658,
+    "ast_hash": "ad75db3b5b32004c3a93abf8ac8e4ba3",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/Views/VirtualSetEditorWindow.g.cs": {
+    "mtime": 1792245760.8801475,
+    "seen": 1792245828.4529982,
+    "ast_hash": "21055b523303dde46742057ad83f78dc",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs": {
+    "mtime": 1792146898.617062,
+    "seen": 1792237277.9310753,
+    "ast_hash": "8479efdf06e2d26e053d27ffa6964185",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/AddInputDialog.g.cs": {
+    "mtime": 1792244443.4775052,
+    "seen": 1792244494.7587771,
+    "ast_hash": "e6a2473ddf3f8ac0948dd30eaccc57e9",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/App.g.cs": {
+    "mtime": 1792245802.0358553,
+    "seen": 1792245828.4530067,
+    "ast_hash": "70a0dbc43777d9a9a8ebc40c2ecb0341",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/Controls/InputDisplay.g.cs": {
+    "mtime": 1792245802.0533905,
+    "seen": 1792245828.4530094,
+    "ast_hash": "84c1fb98d095b88f1cca382627786480",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/Controls/VirtualSetView.g.cs": {
+    "mtime": 1792245802.0608568,
+    "seen": 1792245828.4530149,
+    "ast_hash": "ace28322ae038bd1cb09a046c5600c0e",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/GeneratedInternalTypeHelper.g.cs": {
+    "mtime": 1792245802.0548978,
+    "seen": 1792245828.4530172,
+    "ast_hash": "0c0e0a947704f7051ea32393d665fa5c",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/MainWindow.g.cs": {
+    "mtime": 1792245802.100915,
+    "seen": 1792245828.4530199,
+    "ast_hash": "f7aaaf4155c03477a99db88b6e6c5e97",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone.AssemblyInfo.cs": {
+    "mtime": 1792146899.1133318,
+    "seen": 1792237277.9310877,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone.GlobalUsings.g.cs": {
+    "mtime": 1792146898.3351662,
+    "seen": 1792237277.9310894,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_01t1dbv2_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792215246.9071496,
+    "seen": 1792237277.9310913,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_01t1dbv2_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792215246.9114482,
+    "seen": 1792237277.931093,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_1baffnrh_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792148497.9699788,
+    "seen": 1792237277.9310946,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_1baffnrh_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792148497.9729874,
+    "seen": 1792237277.9310963,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_5qxqauwh_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792151819.0591452,
+    "seen": 1792237277.9310982,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_5qxqauwh_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792151819.0661464,
+    "seen": 1792237277.9311,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_5vojxtwj_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792236936.7062142,
+    "seen": 1792237277.9311013,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_5vojxtwj_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792236936.710831,
+    "seen": 1792237277.9311032,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_n4smtm4b_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792154257.207968,
+    "seen": 1792237277.9311051,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_n4smtm4b_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792154257.2189708,
+    "seen": 1792237277.9311068,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_p4z2euk0_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792236162.8654401,
+    "seen": 1792237277.9311082,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_p4z2euk0_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792236162.870077,
+    "seen": 1792237277.9311101,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_rg1hgqhs_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792150842.6431773,
+    "seen": 1792237277.9311116,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_rg1hgqhs_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792150842.6461854,
+    "seen": 1792237277.9311135,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_sgocqjka_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792149946.947587,
+    "seen": 1792237277.9311152,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_sgocqjka_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792149946.9505394,
+    "seen": 1792237277.931117,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_tkwuo0t2_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792214649.5017922,
+    "seen": 1792237277.931119,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_tkwuo0t2_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792214649.5043008,
+    "seen": 1792237277.9311209,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_xws45c2q_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792147525.9057045,
+    "seen": 1792237277.9311228,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_xws45c2q_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792147525.9087043,
+    "seen": 1792237277.9311244,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_xysf1cmj_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792146898.6525767,
+    "seen": 1792237277.9311278,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_xysf1cmj_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792146898.6545923,
+    "seen": 1792237277.9311295,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_zb2s4jbr_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792149571.3608325,
+    "seen": 1792237277.9311311,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_zb2s4jbr_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792149571.363835,
+    "seen": 1792237277.9311333,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_zihpdzaz_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792149019.6061692,
+    "seen": 1792237277.9311347,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_zihpdzaz_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792149019.6091688,
+    "seen": 1792237277.9311368,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/Views/InputSettingsWindow.g.cs": {
+    "mtime": 1792242179.974733,
+    "seen": 1792242264.9329073,
+    "ast_hash": "9bdf1bad9ef3fa7e655e3b37ed5f915d",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/Views/MultiViewWindow.g.cs": {
+    "mtime": 1792245802.1037178,
+    "seen": 1792245828.453143,
+    "ast_hash": "c9db8c4210c51b1d53d1c946bc54d848",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/Views/ReplayWindow.g.cs": {
+    "mtime": 1792245802.1151433,
+    "seen": 1792245828.4531484,
+    "ast_hash": "2d788dfd6f304028f1faa552d5ac4360",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/Views/SettingsWindow.g.cs": {
+    "mtime": 1792244793.960587,
+    "seen": 1792244810.5303998,
+    "ast_hash": "ad75db3b5b32004c3a93abf8ac8e4ba3",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/Views/VirtualSetEditorWindow.g.cs": {
+    "mtime": 1792245802.1255636,
+    "seen": 1792245828.4531536,
+    "ast_hash": "21055b523303dde46742057ad83f78dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792237277.931147,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_2u10tgwe_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792237277.9311488,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_5m50vr0w_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792237277.9311507,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_ecjel02z_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792237277.931152,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_g1o2iodb_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792237277.931154,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_k1i3fhgx_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792237277.9311557,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_koqrnkxh_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792237277.9311576,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_mgkxv2cy_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792237277.9311593,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_wyacreah_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792237277.9311616,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/project.assets.json": {
+    "mtime": 1792146393.6232948,
+    "seen": 1792237277.931163,
+    "ast_hash": "edddea59e4f06759b98c2ea151f60196",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1792237521.131739,
+    "seen": 1792237538.4756796,
+    "ast_hash": "40001098a21c7fa6efe74b53940daa3d",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1792214898.0188196,
+    "seen": 1792237277.9311666,
+    "ast_hash": "3c33f339336f8d815ebf852938b15f4b",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone.csproj.FileListAbsolute.txt": {
+    "mtime": 1792242001.9331748,
+    "seen": 1792242264.9329495,
+    "ast_hash": "83f6ca9e4331a3c9a3e3827cb809699a",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone.csproj.FileListAbsolute.txt": {
+    "mtime": 1792242182.1303446,
+    "seen": 1792242264.9329515,
+    "ast_hash": "00393cdb9bcbccc7d5b21f3b4239e63e",
+    "semantic_hash": ""
+  },
+  "VirtualSets/LateNightNews/background.png": {
+    "mtime": 1340436990.0,
+    "seen": 1792237277.931172,
+    "ast_hash": "c4834c1bc7a6092fd7177c8ecea9b7d0",
+    "semantic_hash": ""
+  },
+  "VirtualSets/LateNightNews/foreground.crop.png": {
+    "mtime": 1340708238.0,
+    "seen": 1792237277.9311733,
+    "ast_hash": "e0e3827fc2c6781842eebeca911ad640",
+    "semantic_hash": ""
+  },
+  "VirtualSets/LateNightNews/talent.png": {
+    "mtime": 1340205692.0,
+    "seen": 1792237277.9311755,
+    "ast_hash": "7ed96f7727f61f09e2364a7fff82723e",
+    "semantic_hash": ""
+  },
+  "VirtualSets/LateNightNews/thumbnail.jpg": {
+    "mtime": 1340440424.0,
+    "seen": 1792237277.9311771,
+    "ast_hash": "c239222994ef270146833e8bd5d4efc4",
+    "semantic_hash": ""
+  },
+  "VirtualSets/MultiView1/a.png": {
+    "mtime": 1340204192.0,
+    "seen": 1792237277.931179,
+    "ast_hash": "ff74ab4ee9bab82fd0ab6fefe119a8de",
+    "semantic_hash": ""
+  },
+  "VirtualSets/MultiView1/foreground.png": {
+    "mtime": 1373566878.0,
+    "seen": 1792237277.9311805,
+    "ast_hash": "70f0ecbdd5ecb681cae7be7655997499",
+    "semantic_hash": ""
+  },
+  "VirtualSets/MultiView1/talent.png": {
+    "mtime": 1373568990.0,
+    "seen": 1792237277.9311824,
+    "ast_hash": "b44bc9ca77bd84e73ee99ffcdccad291",
+    "semantic_hash": ""
+  },
+  "VirtualSets/MultiView1/thumbnail.jpg": {
+    "mtime": 1373569314.0,
+    "seen": 1792237277.931184,
+    "ast_hash": "6281c3a4d9ef857b97c27b7cf7d7e920",
+    "semantic_hash": ""
+  },
+  "VirtualSets/NewsStudio/a.png": {
+    "mtime": 1340204192.0,
+    "seen": 1792237277.931186,
+    "ast_hash": "ff74ab4ee9bab82fd0ab6fefe119a8de",
+    "semantic_hash": ""
+  },
+  "VirtualSets/NewsStudio/background.png": {
+    "mtime": 1340437396.0,
+    "seen": 1792237277.9311876,
+    "ast_hash": "34cdbfad5b37f9e5536ac4e85bed95ec",
+    "semantic_hash": ""
+  },
+  "VirtualSets/NewsStudio/foreground.crop.png": {
+    "mtime": 1340708268.0,
+    "seen": 1792237277.9311893,
+    "ast_hash": "e7665799b123db07ff450c6cd7cc7c91",
+    "semantic_hash": ""
+  },
+  "VirtualSets/NewsStudio/frame.crop.png": {
+    "mtime": 1340708266.0,
+    "seen": 1792237277.931191,
+    "ast_hash": "6a15051fa98780e3ddac035923a92010",
+    "semantic_hash": ""
+  },
+  "VirtualSets/NewsStudio/talent.png": {
+    "mtime": 1340205692.0,
+    "seen": 1792237277.9311926,
+    "ast_hash": "7ed96f7727f61f09e2364a7fff82723e",
+    "semantic_hash": ""
+  },
+  "VirtualSets/NewsStudio/thumbnail.jpg": {
+    "mtime": 1340440446.0,
+    "seen": 1792237277.9311943,
+    "ast_hash": "6cd7c3d5b2432af2924e9869c33876d8",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/LateNightNews/background.png": {
+    "mtime": 1340436990.0,
+    "seen": 1792237277.9311962,
+    "ast_hash": "c4834c1bc7a6092fd7177c8ecea9b7d0",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/LateNightNews/foreground.crop.png": {
+    "mtime": 1340708238.0,
+    "seen": 1792237277.9311976,
+    "ast_hash": "e0e3827fc2c6781842eebeca911ad640",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/LateNightNews/talent.png": {
+    "mtime": 1340205692.0,
+    "seen": 1792237277.9311996,
+    "ast_hash": "7ed96f7727f61f09e2364a7fff82723e",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/LateNightNews/thumbnail.jpg": {
+    "mtime": 1340440424.0,
+    "seen": 1792237277.9312012,
+    "ast_hash": "c239222994ef270146833e8bd5d4efc4",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/MultiView1/a.png": {
+    "mtime": 1340204192.0,
+    "seen": 1792237277.9312031,
+    "ast_hash": "ff74ab4ee9bab82fd0ab6fefe119a8de",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/MultiView1/foreground.png": {
+    "mtime": 1373566878.0,
+    "seen": 1792237277.9312046,
+    "ast_hash": "70f0ecbdd5ecb681cae7be7655997499",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/MultiView1/talent.png": {
+    "mtime": 1373568990.0,
+    "seen": 1792237277.9312065,
+    "ast_hash": "b44bc9ca77bd84e73ee99ffcdccad291",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/MultiView1/thumbnail.jpg": {
+    "mtime": 1373569314.0,
+    "seen": 1792237277.931208,
+    "ast_hash": "6281c3a4d9ef857b97c27b7cf7d7e920",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/NewsStudio/a.png": {
+    "mtime": 1340204192.0,
+    "seen": 1792237277.9312098,
+    "ast_hash": "ff74ab4ee9bab82fd0ab6fefe119a8de",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/NewsStudio/background.png": {
+    "mtime": 1340437396.0,
+    "seen": 1792237277.9312115,
+    "ast_hash": "34cdbfad5b37f9e5536ac4e85bed95ec",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/NewsStudio/foreground.crop.png": {
+    "mtime": 1340708268.0,
+    "seen": 1792237277.9312134,
+    "ast_hash": "e7665799b123db07ff450c6cd7cc7c91",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/NewsStudio/frame.crop.png": {
+    "mtime": 1340708266.0,
+    "seen": 1792237277.9312148,
+    "ast_hash": "6a15051fa98780e3ddac035923a92010",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/NewsStudio/talent.png": {
+    "mtime": 1340205692.0,
+    "seen": 1792237277.9312165,
+    "ast_hash": "7ed96f7727f61f09e2364a7fff82723e",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/VirtualSets/NewsStudio/thumbnail.jpg": {
+    "mtime": 1340440446.0,
+    "seen": 1792237277.9312181,
+    "ast_hash": "6cd7c3d5b2432af2924e9869c33876d8",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/LateNightNews/background.png": {
+    "mtime": 1340436990.0,
+    "seen": 1792237277.9312198,
+    "ast_hash": "c4834c1bc7a6092fd7177c8ecea9b7d0",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/LateNightNews/foreground.crop.png": {
+    "mtime": 1340708238.0,
+    "seen": 1792237277.9312215,
+    "ast_hash": "e0e3827fc2c6781842eebeca911ad640",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/LateNightNews/talent.png": {
+    "mtime": 1340205692.0,
+    "seen": 1792237277.9312234,
+    "ast_hash": "7ed96f7727f61f09e2364a7fff82723e",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/LateNightNews/thumbnail.jpg": {
+    "mtime": 1340440424.0,
+    "seen": 1792237277.931225,
+    "ast_hash": "c239222994ef270146833e8bd5d4efc4",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/MultiView1/a.png": {
+    "mtime": 1340204192.0,
+    "seen": 1792237277.9312267,
+    "ast_hash": "ff74ab4ee9bab82fd0ab6fefe119a8de",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/MultiView1/foreground.png": {
+    "mtime": 1373566878.0,
+    "seen": 1792237277.9312284,
+    "ast_hash": "70f0ecbdd5ecb681cae7be7655997499",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/MultiView1/talent.png": {
+    "mtime": 1373568990.0,
+    "seen": 1792237277.9312303,
+    "ast_hash": "b44bc9ca77bd84e73ee99ffcdccad291",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/MultiView1/thumbnail.jpg": {
+    "mtime": 1373569314.0,
+    "seen": 1792237277.931232,
+    "ast_hash": "6281c3a4d9ef857b97c27b7cf7d7e920",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/NewsStudio/a.png": {
+    "mtime": 1340204192.0,
+    "seen": 1792237277.931234,
+    "ast_hash": "ff74ab4ee9bab82fd0ab6fefe119a8de",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/NewsStudio/background.png": {
+    "mtime": 1340437396.0,
+    "seen": 1792237277.9312356,
+    "ast_hash": "34cdbfad5b37f9e5536ac4e85bed95ec",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/NewsStudio/foreground.crop.png": {
+    "mtime": 1340708268.0,
+    "seen": 1792237277.9312372,
+    "ast_hash": "e7665799b123db07ff450c6cd7cc7c91",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/NewsStudio/frame.crop.png": {
+    "mtime": 1340708266.0,
+    "seen": 1792237277.931239,
+    "ast_hash": "6a15051fa98780e3ddac035923a92010",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/NewsStudio/talent.png": {
+    "mtime": 1340205692.0,
+    "seen": 1792237277.9312406,
+    "ast_hash": "7ed96f7727f61f09e2364a7fff82723e",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/VirtualSets/NewsStudio/thumbnail.jpg": {
+    "mtime": 1340440446.0,
+    "seen": 1792237277.9312422,
+    "ast_hash": "6cd7c3d5b2432af2924e9869c33876d8",
+    "semantic_hash": ""
+  },
+  "Services/DataSourcesEngine.cs": {
+    "mtime": 1792238114.6988263,
+    "seen": 1792239857.8449695,
+    "ast_hash": "a35e0dbaffcf47fa21b985decf8febac",
+    "semantic_hash": ""
+  },
+  "Services/StreamDeckAndTallyService.cs": {
+    "mtime": 1792238433.892208,
+    "seen": 1792239857.8450317,
+    "ast_hash": "9668322c404803ba7f5a19a3858890ed",
+    "semantic_hash": ""
+  },
+  "Services/VMixApiContract.cs": {
+    "mtime": 1792238464.718626,
+    "seen": 1792239857.8450508,
+    "ast_hash": "4bd734af5a0085195f0c58936b910aee",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_3zruokot_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792238373.7414863,
+    "seen": 1792239857.8464801,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_3zruokot_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792238373.7511249,
+    "seen": 1792239857.8466036,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_54gcve3a_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792239774.7438707,
+    "seen": 1792239857.8466375,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_54gcve3a_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792239774.750167,
+    "seen": 1792239857.8466437,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_cdhvf4st_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792238473.3114,
+    "seen": 1792239857.846736,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_cdhvf4st_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792238473.3144088,
+    "seen": 1792239857.846742,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_gpcctm3x_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792239675.6618247,
+    "seen": 1792239857.8467793,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_gpcctm3x_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792239675.6716812,
+    "seen": 1792239857.8467834,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_wcfgqqpl_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792238877.2398596,
+    "seen": 1792239857.8470418,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_wcfgqqpl_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792238877.2897565,
+    "seen": 1792239857.8470488,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_y2haent5_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792238442.0960846,
+    "seen": 1792239857.8470767,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_y2haent5_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792238442.1001625,
+    "seen": 1792239857.8470826,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_zvkfzd52_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792239037.920617,
+    "seen": 1792239857.8471124,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_zvkfzd52_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792239037.9247415,
+    "seen": 1792239857.8471181,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_3zruokot_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792239857.8474057,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_y2haent5_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792239857.847448,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "openmiks_logo.png": {
+    "mtime": 1792239313.5731814,
+    "seen": 1792239857.8476999,
+    "ast_hash": "09a4717ee4c372536794d2768ab65946",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_nxrkvj1k_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792240538.5490408,
+    "seen": 1792240581.8800285,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_nxrkvj1k_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792240538.5515544,
+    "seen": 1792240581.8800302,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_q44gj0he_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792240435.2140536,
+    "seen": 1792240581.88005,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_q44gj0he_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792240435.2200894,
+    "seen": 1792240581.8800516,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "Assets/openmiks_icon.png": {
+    "mtime": 1792240144.5233512,
+    "seen": 1792240581.8802125,
+    "ast_hash": "3a1f7963ca7913420716bad6b69d9235",
+    "semantic_hash": ""
+  },
+  "Assets/openmiks_logo_dark.png": {
+    "mtime": 1792240125.074989,
+    "seen": 1792240581.880214,
+    "ast_hash": "2279669ecb09bfb3d9e6ec1fceee3986",
+    "semantic_hash": ""
+  },
+  "Assets/openmiks_logo_original.png": {
+    "mtime": 1792240124.9053886,
+    "seen": 1792240581.8802156,
+    "ast_hash": "aa7502f149008212dec48bb42ffff80d",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Assets/openmiks_icon.png": {
+    "mtime": 1792240144.5233512,
+    "seen": 1792240581.8802423,
+    "ast_hash": "3a1f7963ca7913420716bad6b69d9235",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Assets/openmiks_logo_dark.png": {
+    "mtime": 1792240125.074989,
+    "seen": 1792240581.8802443,
+    "ast_hash": "2279669ecb09bfb3d9e6ec1fceee3986",
+    "semantic_hash": ""
+  },
+  "bin/Debug/net10.0-windows/Assets/openmiks_logo_original.png": {
+    "mtime": 1792240124.9053886,
+    "seen": 1792240581.880246,
+    "ast_hash": "aa7502f149008212dec48bb42ffff80d",
+    "semantic_hash": ""
+  },
+  "openmiks_trimmed.png": {
+    "mtime": 1792240101.8660083,
+    "seen": 1792240581.8802998,
+    "ast_hash": "aa7502f149008212dec48bb42ffff80d",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_rej202bx_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792241303.411829,
+    "seen": 1792241367.0544214,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_rej202bx_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792241303.4148266,
+    "seen": 1792241367.0544252,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_a234ctjl_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792240705.810505,
+    "seen": 1792241367.054689,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_a234ctjl_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792240705.8126156,
+    "seen": 1792241367.0546937,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_ctwf13hu_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792241291.196757,
+    "seen": 1792241367.054698,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_ctwf13hu_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792241291.198771,
+    "seen": 1792241367.0547018,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Assets/openmiks_icon.png": {
+    "mtime": 1792240144.5233512,
+    "seen": 1792241367.0550199,
+    "ast_hash": "3a1f7963ca7913420716bad6b69d9235",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Assets/openmiks_logo_dark.png": {
+    "mtime": 1792240125.074989,
+    "seen": 1792241367.0550246,
+    "ast_hash": "2279669ecb09bfb3d9e6ec1fceee3986",
+    "semantic_hash": ""
+  },
+  "bin/Release/net10.0-windows/Assets/openmiks_logo_original.png": {
+    "mtime": 1792240124.9053886,
+    "seen": 1792241367.0550284,
+    "ast_hash": "aa7502f149008212dec48bb42ffff80d",
+    "semantic_hash": ""
+  },
+  "Controls/ObsTransformGizmo.xaml": {
+    "mtime": 1792241898.1921737,
+    "seen": 1792242264.9319818,
+    "ast_hash": "80354b90752689b0ddc91bc80a5e3d58",
+    "semantic_hash": ""
+  },
+  "Controls/ObsTransformGizmo.xaml.cs": {
+    "mtime": 1792241929.0349336,
+    "seen": 1792242264.931984,
+    "ast_hash": "329f7f9f105ff3b5748b7d558684789b",
+    "semantic_hash": ""
+  },
+  "Views/ObjectEditWindow.xaml": {
+    "mtime": 1792241966.478777,
+    "seen": 1792242264.9322205,
+    "ast_hash": "e6f4fa2249908c118e57eabb23eded71",
+    "semantic_hash": ""
+  },
+  "Views/ObjectEditWindow.xaml.cs": {
+    "mtime": 1792241987.7249422,
+    "seen": 1792242264.9322226,
+    "ast_hash": "eeca91dbfb686a2e5704987b4b8aeffd",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/Controls/ObsTransformGizmo.g.cs": {
+    "mtime": 1792241995.90948,
+    "seen": 1792242264.9325447,
+    "ast_hash": "7f7aa0057a7d543a8604b1afc46a37bf",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_bbk1ytuq_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792242201.730213,
+    "seen": 1792242264.9326203,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_bbk1ytuq_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792242201.7361147,
+    "seen": 1792242264.9326222,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_rjjimhoq_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792242118.7664402,
+    "seen": 1792242264.932741,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_rjjimhoq_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792242118.7689662,
+    "seen": 1792242264.9327426,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_twbo3mhb_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792241877.2896564,
+    "seen": 1792242264.9327583,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_twbo3mhb_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792241877.292658,
+    "seen": 1792242264.93276,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_tztmoron_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792241996.5782063,
+    "seen": 1792242264.9327617,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_tztmoron_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792241996.5854948,
+    "seen": 1792242264.9327633,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/Views/ObjectEditWindow.g.cs": {
+    "mtime": 1792245760.89106,
+    "seen": 1792245828.4529903,
+    "ast_hash": "fcf2704c5e5c5739008cad7d1a40a155",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/Controls/ObsTransformGizmo.g.cs": {
+    "mtime": 1792242179.968478,
+    "seen": 1792242264.9328206,
+    "ast_hash": "7f7aa0057a7d543a8604b1afc46a37bf",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_gvyvn3wa_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792242180.1864,
+    "seen": 1792242264.9328578,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_gvyvn3wa_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792242180.1879623,
+    "seen": 1792242264.9328618,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/Views/ObjectEditWindow.g.cs": {
+    "mtime": 1792245802.1391509,
+    "seen": 1792245828.4531455,
+    "ast_hash": "fcf2704c5e5c5739008cad7d1a40a155",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_3xdaznhm_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792243360.9236658,
+    "seen": 1792243790.200328,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_3xdaznhm_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792243360.930923,
+    "seen": 1792243790.2003305,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_ckzx5wxq_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792243482.2778516,
+    "seen": 1792243790.200388,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_ckzx5wxq_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792243482.2865734,
+    "seen": 1792243790.2003899,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_vcoxef11_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792243732.2947335,
+    "seen": 1792243790.2005258,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_vcoxef11_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792243732.3015547,
+    "seen": 1792243790.200528,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_ze4t4i1z_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792243396.8522866,
+    "seen": 1792243790.2005556,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_ze4t4i1z_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792243396.8568213,
+    "seen": 1792243790.2005572,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_20vstg0b_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792243463.083058,
+    "seen": 1792243790.200664,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_20vstg0b_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792243463.0903676,
+    "seen": 1792243790.2006662,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_zmsaliel_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792243767.0082579,
+    "seen": 1792243790.2007277,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_zmsaliel_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792243767.0139306,
+    "seen": 1792243790.20073,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/VMixClone_3xdaznhm_wpftmp.csproj.nuget.dgspec.json": {
+    "mtime": 1792146393.6474757,
+    "seen": 1792243790.2007487,
+    "ast_hash": "e645c709abd33e9d5b711a970113c4dc",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_00c4qfm3_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792244407.188625,
+    "seen": 1792244494.7585323,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_00c4qfm3_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792244407.1906874,
+    "seen": 1792244494.7585342,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_one43kmy_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792244332.0070891,
+    "seen": 1792244494.7586803,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_one43kmy_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792244332.01089,
+    "seen": 1792244494.758682,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_1ftzhpvw_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792244443.7309442,
+    "seen": 1792244494.758799,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_1ftzhpvw_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792244443.7344673,
+    "seen": 1792244494.7588007,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_4rwwhdw0_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792244751.7028222,
+    "seen": 1792244810.5300698,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_4rwwhdw0_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792244751.707397,
+    "seen": 1792244810.5300715,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_fkuusm0x_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792244794.2172556,
+    "seen": 1792244810.5303512,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_fkuusm0x_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792244794.2198515,
+    "seen": 1792244810.530353,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_l2karbzr_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792245761.1349015,
+    "seen": 1792245828.4528086,
+    "ast_hash": "5d43ee2b2576412ad98b20928c0e12c8",
+    "semantic_hash": ""
+  },
+  "obj/Debug/net10.0-windows/VMixClone_l2karbzr_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792245761.1402168,
+    "seen": 1792245828.4528122,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_gpim5gqn_wpftmp.AssemblyInfo.cs": {
+    "mtime": 1792245802.4363468,
+    "seen": 1792245828.4530768,
+    "ast_hash": "02f2c521c75d942ee7e94600a62111cd",
+    "semantic_hash": ""
+  },
+  "obj/Release/net10.0-windows/VMixClone_gpim5gqn_wpftmp.GlobalUsings.g.cs": {
+    "mtime": 1792245802.4438803,
+    "seen": 1792245828.4530795,
+    "ast_hash": "611d05740762fa9c32554b92edde74ca",
+    "semantic_hash": ""
+  }
+}

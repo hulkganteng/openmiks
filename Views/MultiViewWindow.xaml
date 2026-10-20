@@ -1,0 +1,34 @@
+<Window x:Class="VMixClone.Views.MultiViewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:VMixClone.Controls"
+        Title="Openmiks MultiView Output"
+        Icon="pack://application:,,,/Assets/openmiks_icon.png"
+        Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen"
+        Background="#000000" Foreground="#F3F4F6">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <!-- Top Layout Toolbar (AutoHide or small) -->
+            <RowDefinition Height="34"/>
+            <!-- Main MultiView Grid -->
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Layout Selector Bar -->
+        <Border Grid.Row="0" Background="#16161A" BorderBrush="#26262B" BorderThickness="0,0,0,1" Padding="8,4">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="MULTIVIEW LAYOUT:" Foreground="#888" FontWeight="Bold" FontSize="10" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <Button Click="Layout_Click" Tag="Studio" Content="Studio (Preview + Program + 8 Inputs)" Padding="8,2" Margin="0,0,4,0" Background="#2A2A30" Foreground="#FFF" BorderThickness="0" Cursor="Hand" FontSize="10" FontWeight="Bold"/>
+                <Button Click="Layout_Click" Tag="Quad" Content="Quad (2x2 VAR)" Padding="8,2" Margin="0,0,4,0" Background="#2A2A30" Foreground="#FFF" BorderThickness="0" Cursor="Hand" FontSize="10" FontWeight="Bold"/>
+                <Button Click="Layout_Click" Tag="Nine" Content="3x3 (9 Inputs)" Padding="8,2" Margin="0,0,4,0" Background="#2A2A30" Foreground="#FFF" BorderThickness="0" Cursor="Hand" FontSize="10" FontWeight="Bold"/>
+                <Button Click="Layout_Click" Tag="Sixteen" Content="4x4 (16 Inputs)" Padding="8,2" Margin="0,0,12,0" Background="#2A2A30" Foreground="#FFF" BorderThickness="0" Cursor="Hand" FontSize="10" FontWeight="Bold"/>
+                <Button Click="Fullscreen_Click" Content="⛶ Fullscreen" Padding="8,2" Background="#065F46" Foreground="#FFF" BorderThickness="0" Cursor="Hand" FontSize="10" FontWeight="Bold"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Dynamic MultiView Root Container -->
+        <Grid x:Name="MultiViewRoot" Grid.Row="1" Margin="4"/>
+    </Grid>
+</Window>

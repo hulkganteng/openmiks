@@ -1,0 +1,218 @@
+<UserControl x:Class="VMixClone.Controls.InputDisplay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VMixClone.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="400">
+    <Grid x:Name="RootContainer" Background="#0D0D10" ClipToBounds="True">
+        <!-- Object Transform & Crop Host (OBS / vMix Pan, Zoom, Rotation, Crop) -->
+        <Grid x:Name="TransformHost" RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform x:Name="HostScale" ScaleX="1" ScaleY="1"/>
+                    <RotateTransform x:Name="HostRotate" Angle="0"/>
+                    <TranslateTransform x:Name="HostTranslate" X="0" Y="0"/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+
+        <!-- 1. VIDEO PLAYER (Native MediaElement) -->
+        <Grid x:Name="VideoRoot" Visibility="Collapsed">
+            <MediaElement x:Name="VideoPlayer" LoadedBehavior="Manual" UnloadedBehavior="Stop" Stretch="Uniform" ScrubbingEnabled="True"
+                          MediaEnded="VideoPlayer_MediaEnded"/>
+            <Border HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="#B0000000" CornerRadius="3" Padding="6,2" Margin="6">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="▶ " Foreground="#00E676" FontSize="10"/>
+                    <TextBlock x:Name="VideoTimeText" Text="00:00 / 00:00" Foreground="#FFFFFF" FontSize="10" FontFamily="Consolas, monospace"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 2. CAMERA / VIDEO CAPTURE DEVICE -->
+        <Grid x:Name="CameraRoot" Visibility="Collapsed">
+            <Border Background="#15202B">
+                <Grid>
+                    <!-- Real DirectShow feed (ffmpeg dshow -> WriteableBitmap) -->
+                    <Image x:Name="CameraImage" Stretch="Uniform" />
+
+                    <!-- Shown only while no capture graph is running -->
+                    <Grid x:Name="CameraPlaceholder">
+                        <Ellipse Width="70" Height="70" Fill="#1E3A8A" Opacity="0.4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <TextBlock Text="📷" FontSize="26" HorizontalAlignment="Center" Margin="0,0,0,4"/>
+                            <TextBlock x:Name="CameraNameText" Text="LIVE CAMERA FEED" Foreground="#93C5FD" FontWeight="Black" FontSize="13" HorizontalAlignment="Center"/>
+                            <TextBlock x:Name="CameraSpecText" Text="1920x1080 @ 59.94p • DirectShow" Foreground="#64748B" FontSize="10" HorizontalAlignment="Center" Margin="0,2,0,0"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <Border HorizontalAlignment="Right" VerticalAlignment="Top" Background="#AA000000" CornerRadius="3" Padding="6,2" Margin="6">
+                        <TextBlock x:Name="CameraSourceBadge" Text="DIRECTSHOW" Foreground="#38BDF8" FontSize="9" FontWeight="Bold"/>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- 3. DESKTOP CAPTURE (Live Screen) -->
+        <Grid x:Name="DesktopRoot" Visibility="Collapsed">
+            <Image x:Name="DesktopImage" Stretch="Uniform" />
+            <Border HorizontalAlignment="Right" VerticalAlignment="Top" Background="#B0000000" CornerRadius="3" Padding="6,2" Margin="6">
+                <TextBlock Text="DESKTOP LIVE" Foreground="#00E676" FontSize="9" FontWeight="Bold"/>
+            </Border>
+        </Grid>
+
+        <!-- 4. IMAGE / PHOTO -->
+        <Grid x:Name="ImageRoot" Visibility="Collapsed">
+            <Image x:Name="StaticImage" Stretch="Uniform" />
+        </Grid>
+
+        <!-- 5. AUDIO FILE / MEDIA -->
+        <Grid x:Name="AudioRoot" Visibility="Collapsed">
+            <MediaElement x:Name="AudioPlayer" LoadedBehavior="Manual" UnloadedBehavior="Stop" Visibility="Collapsed"
+                          MediaEnded="AudioPlayer_MediaEnded"/>
+            <Border Background="#181820">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="🎵" FontSize="30" HorizontalAlignment="Center" Margin="0,0,0,6"/>
+                    <TextBlock x:Name="AudioTitleText" Text="Audio File Player" Foreground="#E2E8F0" FontWeight="Bold" FontSize="13" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="AudioTimeText" Text="00:00 / 00:00" Foreground="#00E676" FontSize="11" FontFamily="Consolas, monospace" HorizontalAlignment="Center" Margin="0,4,0,0"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,8,0,0">
+                        <Rectangle x:Name="EqBar1" Width="4" Height="20" Fill="#00E676" Margin="2,0" VerticalAlignment="Bottom"/>
+                        <Rectangle x:Name="EqBar2" Width="4" Height="34" Fill="#00E676" Margin="2,0" VerticalAlignment="Bottom"/>
+                        <Rectangle x:Name="EqBar3" Width="4" Height="15" Fill="#00E676" Margin="2,0" VerticalAlignment="Bottom"/>
+                        <Rectangle x:Name="EqBar4" Width="4" Height="28" Fill="#00E676" Margin="2,0" VerticalAlignment="Bottom"/>
+                        <Rectangle x:Name="EqBar5" Width="4" Height="40" Fill="#F59E0B" Margin="2,0" VerticalAlignment="Bottom"/>
+                        <Rectangle x:Name="EqBar6" Width="4" Height="22" Fill="#00E676" Margin="2,0" VerticalAlignment="Bottom"/>
+                        <Rectangle x:Name="EqBar7" Width="4" Height="30" Fill="#00E676" Margin="2,0" VerticalAlignment="Bottom"/>
+                        <Rectangle x:Name="EqBar8" Width="4" Height="12" Fill="#00E676" Margin="2,0" VerticalAlignment="Bottom"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 6. SMPTE COLOR BARS -->
+        <Grid x:Name="ColorBarsRoot" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="65*" />
+                <RowDefinition Height="15*" />
+                <RowDefinition Height="20*" />
+            </Grid.RowDefinitions>
+            <!-- Top Bars -->
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" /><ColumnDefinition Width="*" /><ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" /><ColumnDefinition Width="*" /><ColumnDefinition Width="*" /><ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Rectangle Grid.Column="0" Fill="#C0C0C0" /><Rectangle Grid.Column="1" Fill="#C0C000" />
+                <Rectangle Grid.Column="2" Fill="#00C0C0" /><Rectangle Grid.Column="3" Fill="#00C000" />
+                <Rectangle Grid.Column="4" Fill="#C000C0" /><Rectangle Grid.Column="5" Fill="#C00000" />
+                <Rectangle Grid.Column="6" Fill="#0000C0" />
+            </Grid>
+            <!-- Middle Bars -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" /><ColumnDefinition Width="*" /><ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" /><ColumnDefinition Width="*" /><ColumnDefinition Width="*" /><ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Rectangle Grid.Column="0" Fill="#0000C0" /><Rectangle Grid.Column="1" Fill="#131313" />
+                <Rectangle Grid.Column="2" Fill="#C000C0" /><Rectangle Grid.Column="3" Fill="#131313" />
+                <Rectangle Grid.Column="4" Fill="#00C0C0" /><Rectangle Grid.Column="5" Fill="#131313" />
+                <Rectangle Grid.Column="6" Fill="#C0C0C0" />
+            </Grid>
+            <!-- Bottom Bars -->
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="18*" /><ColumnDefinition Width="18*" /><ColumnDefinition Width="18*" />
+                    <ColumnDefinition Width="18*" /><ColumnDefinition Width="28*" />
+                </Grid.ColumnDefinitions>
+                <Rectangle Grid.Column="0" Fill="#00214C" /><Rectangle Grid.Column="1" Fill="#FFFFFF" />
+                <Rectangle Grid.Column="2" Fill="#32006A" /><Rectangle Grid.Column="3" Fill="#131313" />
+                <Rectangle Grid.Column="4" Fill="#090909" />
+            </Grid>
+            <Border HorizontalAlignment="Center" VerticalAlignment="Center" Background="#B0000000" CornerRadius="4" Padding="14,6">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Text="SMPTE COLOR BARS" Foreground="#FFFFFF" FontWeight="Black" FontSize="13" FontFamily="Consolas, monospace" HorizontalAlignment="Center"/>
+                    <TextBlock Text="1000Hz TONE • 1080p59.94" Foreground="#FFD700" FontWeight="Bold" FontSize="10" HorizontalAlignment="Center" Margin="0,2,0,0"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 7. STUDIO CLOCK -->
+        <Grid x:Name="ClockRoot" Visibility="Collapsed">
+            <Border Background="#0F172A">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Border Background="#1E293B" CornerRadius="3" Padding="6,2" HorizontalAlignment="Center" Margin="0,0,0,8">
+                        <TextBlock Text="STUDIO PRODUCTION CLOCK" Foreground="#38BDF8" FontSize="10" FontWeight="Bold"/>
+                    </Border>
+                    <TextBlock x:Name="ClockText" Text="12:00:00:00" Foreground="#00FF88" FontSize="34" FontWeight="Black" FontFamily="Consolas, monospace" HorizontalAlignment="Center">
+                        <TextBlock.Effect>
+                            <DropShadowEffect Color="#00FF88" BlurRadius="10" ShadowDepth="0" Opacity="0.5"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,6,0,0">
+                        <TextBlock x:Name="DateText" Text="2026-10-16" Foreground="#94A3B8" FontSize="11" Margin="0,0,10,0"/>
+                        <TextBlock Text="SMPTE TIMECODE" Foreground="#F59E0B" FontSize="11" FontWeight="Bold"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 8. TITLE / LOWER THIRD -->
+        <Grid x:Name="TitleRoot" Visibility="Collapsed">
+            <Border x:Name="TitleBorder" Background="Transparent">
+                <Grid>
+                    <!-- Real vMix title template (Titles\*.xaml) rendered when the input has one -->
+                    <Viewbox x:Name="TitleTemplateHost" Visibility="Collapsed" Stretch="Uniform" IsHitTestVisible="False"/>
+
+                    <!-- Built-in lower third, used when no template is attached -->
+                    <Grid x:Name="BuiltInTitle">
+                    <Grid VerticalAlignment="Bottom" Margin="24,0,24,24">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Border Grid.Row="0" Background="#DC2626" Padding="12,5" HorizontalAlignment="Left" CornerRadius="3,3,0,0">
+                            <TextBlock x:Name="HeadlineText" Text="BREAKING NEWS" Foreground="White" FontWeight="Black" FontSize="14"/>
+                        </Border>
+                        <Border Grid.Row="1" Background="#E60F172A" BorderBrush="#DC2626" BorderThickness="0,2,0,0" Padding="14,8" CornerRadius="0,4,4,4">
+                            <TextBlock x:Name="SubtitleText" Text="vMix Live Production System Initialized" Foreground="#F1F5F9" FontWeight="SemiBold" FontSize="13"/>
+                        </Border>
+                    </Grid>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- 9. SOLID COLOUR / BACKDROP -->
+        <Grid x:Name="ColorRoot" Visibility="Collapsed">
+            <Border x:Name="ColorBorder" Background="#1E3A5F">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock x:Name="ColorInputTitle" Text="COLOUR BACKDROP" Foreground="#DBEAFE" FontWeight="Black" FontSize="15" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 10. WEB BROWSER / URL -->
+        <Grid x:Name="WebRoot" Visibility="Collapsed">
+            <Border Background="#111827">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="🌐" FontSize="28" HorizontalAlignment="Center" Margin="0,0,0,4"/>
+                    <TextBlock x:Name="WebUrlDisplay" Text="https://www.google.com" Foreground="#60A5FA" FontWeight="Bold" FontSize="12" HorizontalAlignment="Center"/>
+                    <TextBlock Text="WEB BROWSER INPUT" Foreground="#9CA3AF" FontSize="10" HorizontalAlignment="Center" Margin="0,4,0,0"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 11. VIRTUAL SET COMPOSITOR -->
+        <Grid x:Name="VirtualSetRoot" Visibility="Collapsed">
+            <local:VirtualSetView x:Name="VsView" />
+        </Grid>
+
+        <!-- Fallback / No Signal -->
+        <Grid x:Name="NoSignalRoot" Visibility="Collapsed">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="NO SIGNAL" Foreground="#444444" FontSize="15" FontWeight="Black" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

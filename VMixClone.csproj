@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\openmiks_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\**\*" />
+    <None Include="Assets\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <Page Remove="Titles\**\*.xaml" />
+    <None Include="Titles\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="VirtualSets\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <Resource Include="Effects\ChromaKey.ps">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+</Project>

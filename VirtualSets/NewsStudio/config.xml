@@ -1,0 +1,11 @@
+<virtualSet>
+  <input name="Background" x="0" y="0" zoom="1">background.png</input>
+  <input name="Screen" x="0" y="0.3" zoom="0.207" dynamic="true">a.png</input>
+  <input name="Frame" x="0.01533333" y="0.3045024" zoom="0.2393333">frame.crop.png</input>
+  <input name="Talent" x="0" y="0.15" zoom="0.3" dynamic="true">talent.png</input>
+  <input name="Foreground" x="0.001333333" y="-0.2736967" zoom="0.313">foreground.crop.png</input>
+  <zoom name="Close Up" x="0" y="-0.5" zoom="3" />
+  <zoom name="Medium Shot" x="0" y="-0.2" zoom="2" />
+  <zoom name="Full" x="0" y="0" zoom="1" />
+  <zoom name="Custom" x="0" y="0" zoom="1" />
+</virtualSet>
