@@ -2,9 +2,9 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using VMixClone.Services;
+using Openmiks.Services;
 
-namespace VMixClone.Models
+namespace Openmiks.Models
 {
     public class InputItem : INotifyPropertyChanged
     {

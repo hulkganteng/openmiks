@@ -1,9 +1,9 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using VMixClone.Models;
+using Openmiks.Models;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     public class AudioMixerEngine : INotifyPropertyChanged
     {

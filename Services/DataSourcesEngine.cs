@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Xml.Linq;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     public interface IDataSource : IDisposable
     {

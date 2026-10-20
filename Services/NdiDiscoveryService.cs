@@ -7,7 +7,7 @@ using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     // Real NDI discovery: NDI sources announce over mDNS as _ndi._tcp.local, so browse that
     // service instead of listing invented hosts. Receive/send needs the NDI runtime

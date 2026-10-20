@@ -5,7 +5,7 @@ using System.Windows.Markup;
 using System.Windows.Media;
 using System.Xml.Linq;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     // Loads real vMix title templates (Titles\*.xaml) and drives their named fields.
     // vMix's templates reference clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary, which
@@ -27,7 +27,7 @@ namespace VMixClone.Services
         private const string VmixNamespace = "clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary";
         // XamlReader.Parse resolves clr-namespace against a named assembly at runtime, so the shim
         // namespace must carry this assembly's own name.
-        private const string LocalNamespace = "clr-namespace:VMixClone.TitleLibrary;assembly=VMixClone";
+        private const string LocalNamespace = "clr-namespace:Openmiks.TitleLibrary;assembly=Openmiks";
         // Renamed so the type can hold its own TemplatePath property without shadowing System.IO.Path.
         private static readonly string VmixTitlesDir = @"C:\Program Files (x86)\vMix\titles";
 

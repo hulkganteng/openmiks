@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Windows.Threading;
-using VMixClone.Models;
+using Openmiks.Models;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     // Drives the playlist and photo slideshow models that previously existed as data only:
     // real advance on elapsed time, real file resolution, and a real current item for the

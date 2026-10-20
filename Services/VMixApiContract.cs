@@ -1,7 +1,7 @@
 using System.ComponentModel;
-using VMixClone.Models;
+using Openmiks.Models;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     public struct vMixTally
     {

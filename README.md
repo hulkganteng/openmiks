@@ -104,4 +104,4 @@ dotnet run
 dotnet build -c Release
 ```
 File binary executable:
-`bin\Release\net10.0-windows\VMixClone.exe` (atau dapat di-rename ke `Openmix.exe`).
+`bin\Release\net10.0-windows\Openmiks.exe` (atau dapat di-rename ke `Openmix.exe`).

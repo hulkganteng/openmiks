@@ -2,10 +2,10 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Threading;
-using VMixClone.Models;
-using VMixClone.Services;
+using Openmiks.Models;
+using Openmiks.Services;
 
-namespace VMixClone.Views
+namespace Openmiks.Views
 {
     public partial class ReplayWindow : Window
     {

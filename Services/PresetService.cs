@@ -2,9 +2,9 @@ using System.IO;
 using System.Text;
 using System.Xml.Linq;
 using System.Windows.Media;
-using VMixClone.Models;
+using Openmiks.Models;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     public static class PresetService
     {

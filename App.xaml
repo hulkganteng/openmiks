@@ -1,7 +1,7 @@
-﻿<Application x:Class="VMixClone.App"
+﻿<Application x:Class="Openmiks.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:VMixClone"
+             xmlns:local="clr-namespace:Openmiks"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <!-- Dark ComboBox Item Template -->

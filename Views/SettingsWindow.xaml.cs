@@ -1,9 +1,9 @@
 using System.Windows;
 using System.Windows.Controls;
-using VMixClone.Models;
-using VMixClone.Services;
+using Openmiks.Models;
+using Openmiks.Services;
 
-namespace VMixClone.Views
+namespace Openmiks.Views
 {
     public partial class SettingsWindow : Window
     {

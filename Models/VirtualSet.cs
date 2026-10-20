@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Windows.Media;
 using System.Xml.Linq;
 
-namespace VMixClone.Models
+namespace Openmiks.Models
 {
     public class VirtualSetLayer : INotifyPropertyChanged
     {

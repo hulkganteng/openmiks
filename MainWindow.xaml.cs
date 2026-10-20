@@ -4,12 +4,12 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
-using VMixClone.Controls;
-using VMixClone.Models;
-using VMixClone.Services;
-using VMixClone.Views;
+using Openmiks.Controls;
+using Openmiks.Models;
+using Openmiks.Services;
+using Openmiks.Views;
 
-namespace VMixClone
+namespace Openmiks
 {
     public partial class MainWindow : Window
     {

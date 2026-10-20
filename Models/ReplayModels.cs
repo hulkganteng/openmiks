@@ -2,7 +2,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace VMixClone.Models
+namespace Openmiks.Models
 {
     public class ReplayCamera : INotifyPropertyChanged
     {

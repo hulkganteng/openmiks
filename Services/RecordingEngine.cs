@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 using System.Windows.Threading;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     // Frame source for the encoders: supplies BGRA frames the caller renders when it uses the
     // program-surface input, or nothing when the recorder falls back to desktop grabbing.

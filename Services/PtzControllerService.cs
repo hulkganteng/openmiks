@@ -2,7 +2,7 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Sockets;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     public enum PtzProtocol
     {

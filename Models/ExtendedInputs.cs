@@ -2,7 +2,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace VMixClone.Models
+namespace Openmiks.Models
 {
     // Which list the playout engine advances.
     public enum PlayoutMode

@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Globalization;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     // Real peak levels from a DirectShow audio device: ffmpeg astats -> ametadata prints
     // "lavfi.astats.Overall.RMS_level=<dB>" on stderr; converted to a 0..1 linear value.

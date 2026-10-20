@@ -4,10 +4,10 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
-using VMixClone.Models;
-using VMixClone.Services;
+using Openmiks.Models;
+using Openmiks.Services;
 
-namespace VMixClone.Controls
+namespace Openmiks.Controls
 {
     public partial class InputDisplay : UserControl
     {

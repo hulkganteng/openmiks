@@ -2,11 +2,11 @@ using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using VMixClone.Models;
-using VMixClone.Services;
-using VMixClone.Views;
+using Openmiks.Models;
+using Openmiks.Services;
+using Openmiks.Views;
 
-namespace VMixClone
+namespace Openmiks
 {
     public partial class AddInputDialog : Window
     {

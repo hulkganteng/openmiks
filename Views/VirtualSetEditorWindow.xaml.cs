@@ -2,9 +2,9 @@ using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using VMixClone.Models;
+using Openmiks.Models;
 
-namespace VMixClone.Views
+namespace Openmiks.Views
 {
     public partial class VirtualSetEditorWindow : Window
     {

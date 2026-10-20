@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     public static class ScreenCaptureService
     {

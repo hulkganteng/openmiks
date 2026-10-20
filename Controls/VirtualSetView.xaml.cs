@@ -4,10 +4,10 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
-using VMixClone.Effects;
-using VMixClone.Models;
+using Openmiks.Effects;
+using Openmiks.Models;
 
-namespace VMixClone.Controls
+namespace Openmiks.Controls
 {
     public partial class VirtualSetView : UserControl
     {

@@ -7,10 +7,10 @@ using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using VMixClone.Models;
-using VMixClone.Services;
+using Openmiks.Models;
+using Openmiks.Services;
 
-namespace VMixClone.Tests
+namespace Openmiks.Tests
 {
     public static class ProductionEngineTests
     {
@@ -195,7 +195,7 @@ namespace VMixClone.Tests
                 Console.WriteLine("[PASS] Virtual Set loading and camera presets validated.");
             }
 
-            var chroma = new VMixClone.Effects.ChromaKeyEffect();
+            var chroma = new Openmiks.Effects.ChromaKeyEffect();
             Debug.Assert(chroma.Similarity > 0, "ChromaKey similarity must be positive");
             Debug.Assert(chroma.SpillSuppression > 0, "ChromaKey spill suppression must be positive");
             Console.WriteLine("[PASS] GPU Chroma Key ShaderEffect validated.");

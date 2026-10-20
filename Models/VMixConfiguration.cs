@@ -1,7 +1,7 @@
 using System.IO;
 using System.Text.Json;
 
-namespace VMixClone.Models
+namespace Openmiks.Models
 {
     public class VMixConfiguration
     {
@@ -64,7 +64,7 @@ namespace VMixClone.Models
         private static string GetConfigPath()
         {
             string appData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-            string dir = Path.Combine(appData, "vMixClone");
+            string dir = Path.Combine(appData, "Openmiks");
             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
             return Path.Combine(dir, "vmix_settings.json");
         }

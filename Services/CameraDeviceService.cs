@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     // Enumerates real DirectShow capture devices by asking the installed ffmpeg.
     // Evidence: vMix ships ffmpeg6.exe (dshow device available) and its own picker is

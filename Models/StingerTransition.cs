@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace VMixClone.Models
+namespace Openmiks.Models
 {
     public class StingerTransition : INotifyPropertyChanged
     {

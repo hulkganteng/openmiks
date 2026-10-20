@@ -1,7 +1,7 @@
 ﻿using System.Windows;
-using VMixClone.Tests;
+using Openmiks.Tests;
 
-namespace VMixClone
+namespace Openmiks
 {
     public partial class App : Application
     {

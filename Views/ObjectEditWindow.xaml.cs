@@ -4,9 +4,9 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using VMixClone.Models;
+using Openmiks.Models;
 
-namespace VMixClone.Views
+namespace Openmiks.Views
 {
     public partial class ObjectEditWindow : Window
     {

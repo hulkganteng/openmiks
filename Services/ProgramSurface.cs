@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     // Gives any Visual a real 32-bit BGRA frame source (cached Fbo per visual) so one code path
     // covers camera, desktop capture, program output, recording and streaming.

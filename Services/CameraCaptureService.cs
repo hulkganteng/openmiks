@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     // Real DirectShow capture: ffmpeg dshow -> rawvideo bgr24 on stdout -> WriteableBitmap.
     // ponytail: pipe + 1 decode thread instead of DirectShow COM interop; swap to a native

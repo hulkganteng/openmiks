@@ -1,4 +1,4 @@
-namespace VMixClone.Models
+namespace Openmiks.Models
 {
     public enum InputType
     {

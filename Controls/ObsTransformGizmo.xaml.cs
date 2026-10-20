@@ -4,9 +4,9 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
-using VMixClone.Models;
+using Openmiks.Models;
 
-namespace VMixClone.Controls
+namespace Openmiks.Controls
 {
     public partial class ObsTransformGizmo : UserControl
     {

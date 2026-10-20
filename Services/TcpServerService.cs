@@ -3,9 +3,9 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Windows;
-using VMixClone.Models;
+using Openmiks.Models;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     public class TcpServerService
     {

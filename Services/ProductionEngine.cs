@@ -4,9 +4,9 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Windows.Data;
 using System.Windows.Threading;
-using VMixClone.Models;
+using Openmiks.Models;
 
-namespace VMixClone.Services
+namespace Openmiks.Services
 {
     public class ProductionEngine : INotifyPropertyChanged
     {
